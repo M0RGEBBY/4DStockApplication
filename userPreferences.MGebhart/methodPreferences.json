@@ -168,11 +168,11 @@
 	"Sources/Methods/LoadTradingViewChart.4dm": {
 		"startSelection": 16,
 		"endSelection": 16,
-		"firstSelectedLine": 58,
-		"lastSelectedLine": 58,
+		"firstSelectedLine": 59,
+		"lastSelectedLine": 59,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-20T20:20:58.027Z"
+		"stamp": "2025-08-20T20:24:34.159Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button1.4dm": {
 		"startSelection": 59,
