@@ -166,13 +166,13 @@
 		"stamp": "2025-08-13T13:17:40.796Z"
 	},
 	"Sources/Methods/LoadTradingViewChart.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
+		"startSelection": 14,
+		"endSelection": 14,
 		"firstSelectedLine": 57,
 		"lastSelectedLine": 57,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-20T19:59:32.032Z"
+		"stamp": "2025-08-20T20:16:32.417Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button1.4dm": {
 		"startSelection": 59,
