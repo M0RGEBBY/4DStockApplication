@@ -1,0 +1,9 @@
+# Ignore the database file
+*.4db
+
+# Ignore temporary or lock files
+*.4dt
+*.4dLock
+
+# Ignore backups
+*.bak

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="stockApplication" uuid="CEBBBC7178543A45AC2873912948D2E4" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Stock" uuid="5142B1081CB46B4AAED72BB95BF04230" id="1">
+		<field name="UUID" uuid="2E222F460DA9334FABFB227C1361E065" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Ticker" uuid="8BC9E673A8F7154387749FB7C8515E89" type="10" limiting_length="255" id="2"/>
+		<field name="CompanyName" uuid="8E5672EDC3D77149B59BF422DC636EDC" type="10" limiting_length="255" id="3"/>
+		<field name="Exchange" uuid="404694CE527D1B4B82DBA0EF494EE552" type="10" limiting_length="255" id="4"/>
+		<primary_key field_name="UUID" field_uuid="2E222F460DA9334FABFB227C1361E065"/>
+	</table>
+	<table name="(Table_1)" uuid="46177AC3149312469D0D959310A429DC" id="2" hide_in_REST="true">
+		<field name="UUID" uuid="0F904F7D9A60C64DBA8CC278F64EE12B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<primary_key field_name="UUID" field_uuid="0F904F7D9A60C64DBA8CC278F64EE12B"/>
+		<table_extra trashed="true"/>
+	</table>
+	<table name="WatchlistStock" uuid="3AC3224511112741B531B547DE764DDF" id="3">
+		<field name="UUID" uuid="85270A1438FC454E97D1A4E5214A5174" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="StrikePrice" uuid="2D5F112E9116E7479B4B0053C90AEF27" type="6" id="4"/>
+		<field name="TopResistance" uuid="6E4DDD8435662C41843A39A381F95FC8" type="6" id="5">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="BotResistance" uuid="ACF1120AF7281C4CBDA8814AE2D54A5F" type="6" id="6">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="StopLossPrice" uuid="CCA8C83900B0864EB33B47490F8750F2" type="6" id="7">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="PercentageFromStrike" uuid="D8915F509DFB464B9B7715F36DB19186" type="6" id="8"/>
+		<field name="stockUUID" uuid="44415562CE359443816699FC7F667996" type="10" store_as_UUID="true" id="9"/>
+		<primary_key field_name="UUID" field_uuid="85270A1438FC454E97D1A4E5214A5174"/>
+	</table>
+	<table name="ActivePositionStock" uuid="3DB993E8368A204AAEA5B0C5946F8512" id="4">
+		<field name="UUID" uuid="F0EF48BB18A1E745A0C5B8F941F62B47" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="PurchasePrice" uuid="B2F36F4B87B7854FBA9B3450BD0E5968" type="10" limiting_length="255" id="4"/>
+		<field name="PercentageFromPurchasePrice" uuid="AC7FB5654CCBEE4E8EF56F0E7FD2DEEC" type="10" limiting_length="255" id="5"/>
+		<field name="StopLossPrice" uuid="B2E5FDCB8AB83947AB5542AE5154726F" type="10" limiting_length="255" id="6"/>
+		<field name="stockUUID" uuid="558AAB6FFAEB27408801B67CCF967450" type="10" store_as_UUID="true" id="7"/>
+		<primary_key field_name="UUID" field_uuid="F0EF48BB18A1E745A0C5B8F941F62B47"/>
+	</table>
+	<relation uuid="B9819A389E2606498A8DD73F353D95AE" name_Nto1="ActivePositionStock" name_1toN="Stock" state="1">
+		<related_field kind="source">
+			<field_ref uuid="558AAB6FFAEB27408801B67CCF967450" name="stockUUID">
+				<table_ref uuid="3DB993E8368A204AAEA5B0C5946F8512" name="ActivePositionStock"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="2E222F460DA9334FABFB227C1361E065" name="UUID">
+				<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="D907B024BD2FD74CB3D6DBA1ABD6CF5F" name_Nto1="WatchlistStock" name_1toN="Stock" state="1">
+		<related_field kind="source">
+			<field_ref uuid="44415562CE359443816699FC7F667996" name="stockUUID">
+				<table_ref uuid="3AC3224511112741B531B547DE764DDF" name="WatchlistStock"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="2E222F460DA9334FABFB227C1361E065" name="UUID">
+				<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<index kind="regular" uuid="18FA97BE7CAA3947AAFEC9CD352524F7" type="7">
+		<field_ref uuid="8BC9E673A8F7154387749FB7C8515E89" name="Ticker">
+			<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="454C1B72A05D4246A4FA325E9E69B3F3" type="7">
+		<field_ref uuid="F0EF48BB18A1E745A0C5B8F941F62B47" name="UUID">
+			<table_ref uuid="3DB993E8368A204AAEA5B0C5946F8512" name="ActivePositionStock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="4953AF8D71CED7439C3ADBA55EF0DABC" type="7">
+		<field_ref uuid="2E222F460DA9334FABFB227C1361E065" name="UUID">
+			<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6DA914459265CC4A98EFEDDAE1EA72DF" type="7">
+		<field_ref uuid="8E5672EDC3D77149B59BF422DC636EDC" name="CompanyName">
+			<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A1D41322B1D8984D9998935422B14E3B" type="7">
+		<field_ref uuid="0F904F7D9A60C64DBA8CC278F64EE12B" name="UUID">
+			<table_ref uuid="46177AC3149312469D0D959310A429DC" name="(Table_1)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B00549E954C0BD4D8A537C7C04E73B20" type="7">
+		<field_ref uuid="558AAB6FFAEB27408801B67CCF967450" name="stockUUID">
+			<table_ref uuid="3DB993E8368A204AAEA5B0C5946F8512" name="ActivePositionStock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CF9528B70F799B46AD5B2E2D1F44FB22" type="7">
+		<field_ref uuid="44415562CE359443816699FC7F667996" name="stockUUID">
+			<table_ref uuid="3AC3224511112741B531B547DE764DDF" name="WatchlistStock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E638631AA6AC694882BAE2490A8BC749" type="7">
+		<field_ref uuid="85270A1438FC454E97D1A4E5214A5174" name="UUID">
+			<table_ref uuid="3AC3224511112741B531B547DE764DDF" name="WatchlistStock"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

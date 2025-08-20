@@ -1,0 +1,122 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 35,
+					"top": 76,
+					"width": 853,
+					"height": 321,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "Ticker",
+							"footer": {
+								"name": "Footer1"
+							}
+						}
+					]
+				},
+				"refreshButton": {
+					"type": "button",
+					"text": "Refresh Watchlist",
+					"top": 417,
+					"left": 35,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					]
+				},
+				"addButton": {
+					"type": "button",
+					"text": "Add New Ticker",
+					"top": 108,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/addButton.4dm"
+				},
+				"removeButton": {
+					"type": "button",
+					"text": "Remove Selected Ticker",
+					"top": 299,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					]
+				},
+				"removeButton1": {
+					"type": "button",
+					"text": "Edit",
+					"top": 210,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 24,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

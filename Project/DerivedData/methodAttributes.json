@@ -1,0 +1,25 @@
+{
+	"methods": {
+		"calculateStopLossTarget": {
+			"timeStamp": "2025-08-19T19:32:04Z"
+		},
+		"FetchStock": {
+			"timeStamp": "2025-07-30T19:00:37Z"
+		},
+		"formController": {
+			"timeStamp": "2025-08-04T17:46:11Z"
+		},
+		"GetCompanyLogo": {
+			"timeStamp": "2025-08-19T15:27:53Z"
+		},
+		"LoadTradingViewChart": {
+			"timeStamp": "2025-08-19T13:41:32Z"
+		},
+		"populateStockTable": {
+			"timeStamp": "2025-08-14T14:40:41Z"
+		},
+		"(forceTwoDecimalPlaces)": {
+			"timeStamp": "2025-08-12T20:16:04Z"
+		}
+	}
+}

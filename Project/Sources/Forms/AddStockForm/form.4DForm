@@ -1,0 +1,133 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Add a Stock to Your Watchlist",
+					"top": 27,
+					"left": 24,
+					"width": 425,
+					"height": 15,
+					"fontWeight": "bold"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 24,
+					"top": 62,
+					"width": 456,
+					"height": 430,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.stocks",
+					"scrollbarHorizontal": "hidden",
+					"method": "ObjectMethods/List Box.4dm",
+					"currentItemSource": "Form:C1466.selectedStock",
+					"columns": [
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Symbol",
+								"dataSource": "This:C1470.Ticker"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.Ticker",
+							"width": 70,
+							"fontWeight": "bold",
+							"verticalAlign": "middle",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.CompanyName",
+							"width": 379
+						}
+					]
+				},
+				"searchBox": {
+					"type": "input",
+					"left": 300,
+					"top": 26,
+					"width": 180,
+					"height": 16,
+					"method": "ObjectMethods/searchBox.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.search",
+					"placeholder": "Search tickers..."
+				},
+				"nextButton": {
+					"type": "button",
+					"text": "Next",
+					"top": 512,
+					"left": 24,
+					"width": 456,
+					"height": 36,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/nextButton.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 49,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

@@ -1,0 +1,185 @@
+[
+	{
+		"codeDescriptorWatches": [
+			{
+				"path": "[projectForm]/AddStockForm/nextButton",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$ticker : "
+					},
+					{
+						"type": 66,
+						"formula": "$companyName"
+					},
+					{
+						"type": 66,
+						"formula": "$ref1"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.Exchange:=Form:C1466.selectedStock.Exchange"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.Exchange"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/newStockInfoForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466._200DaySMA",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "$alphaRequest.response.body[\"Technical Analysis: SMA\"][\"2025-08-12\"][\"SMA\"]"
+					},
+					{
+						"type": 66,
+						"formula": "_200DaySMA; "
+					},
+					{
+						"type": 66,
+						"formula": "$alphaQuoteUrl"
+					},
+					{
+						"type": 66,
+						"formula": "$webArea"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.webArea"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.CompanyName"
+					},
+					{
+						"type": 66,
+						"formula": "LoadTradingViewChart($ticker; $exchange)"
+					},
+					{
+						"type": 66,
+						"formula": "$chartURL"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/newStockInfoForm/Button",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$strikePrice"
+					},
+					{
+						"type": 66,
+						"formula": "$stopLossPrice"
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock.PercentageFromStrike"
+					}
+				]
+			},
+			{
+				"path": "calculateStopLossTarget",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$lossTarget"
+					},
+					{
+						"type": 66,
+						"formula": "$strikePrice"
+					},
+					{
+						"type": 66,
+						"formula": "$strikepric"
+					},
+					{
+						"type": 66,
+						"formula": "$strikeprice"
+					}
+				]
+			},
+			{
+				"path": "FetchStock",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$request"
+					},
+					{
+						"type": 66,
+						"formula": "$request.statusCode"
+					},
+					{
+						"type": 66,
+						"formula": "$url"
+					}
+				]
+			},
+			{
+				"path": "GetCompanyLogo",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "HTTP Get:C1157($url; $imageBlob)"
+					},
+					{
+						"type": 66,
+						"formula": "$url"
+					},
+					{
+						"type": 66,
+						"formula": "var $httpRequest:=4D:C1709.HTTPRequest.new($url)"
+					},
+					{
+						"type": 66,
+						"formula": "$httpRequest",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "$httpRequest.response"
+					}
+				]
+			},
+			{
+				"path": "LoadTradingViewChart",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$queryFullName"
+					},
+					{
+						"type": 66,
+						"formula": "$tempPath"
+					},
+					{
+						"type": 66,
+						"formula": "$filePath"
+					}
+				]
+			},
+			{
+				"path": "populateStockTable",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$url"
+					},
+					{
+						"type": 66,
+						"formula": "$request.response.body.results",
+						"expanded": true
+					}
+				]
+			}
+		]
+	}
+]

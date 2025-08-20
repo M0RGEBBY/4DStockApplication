@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"AddStockForm": {
+			"timeStamp": "2025-08-11T18:37:48Z",
+			"destination": "detailScreen"
+		},
+		"HomeForm": {
+			"timeStamp": "2025-08-04T14:02:38Z",
+			"destination": "detailScreen"
+		},
+		"newStockInfoForm": {
+			"timeStamp": "2025-08-19T19:40:14Z",
+			"destination": "detailScreen"
+		}
+	}
+}

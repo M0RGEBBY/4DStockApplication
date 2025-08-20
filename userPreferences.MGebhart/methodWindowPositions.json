@@ -1,0 +1,194 @@
+{
+	"Sources/Methods/FetchStock.4dm": {
+		"left": 744,
+		"top": 130,
+		"width": 965,
+		"height": 750
+	},
+	"Sources/Classes/HTTPRequest.4dm": {
+		"left": -146,
+		"top": 331,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Methods/populateStockTable.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1898,
+		"height": 913
+	},
+	"Sources/Classes/Stock.4dm": {
+		"left": 18,
+		"top": 363,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/AddStockForm/method.4dm": {
+		"left": 689,
+		"top": 241,
+		"width": 965,
+		"height": 400
+	},
+	"Sources/Forms/AddStockForm/ObjectMethods/search.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/AddStockForm/ObjectMethods/Form.search.4dm": {
+		"left": 379,
+		"top": 200,
+		"width": 1536,
+		"height": 789
+	},
+	"Sources/Forms/AddStockForm/ObjectMethods/searchBox.4dm": {
+		"left": 190,
+		"top": 200,
+		"width": 1536,
+		"height": 789
+	},
+	"Sources/Forms/AddStockForm/ObjectMethods/nextButton.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/AddStockForm/ObjectMethods/List Box.4dm": {
+		"left": 596,
+		"top": 427,
+		"width": 965,
+		"height": 490
+	},
+	"Sources/Methods/formController.4dm": {
+		"left": 354,
+		"top": 190,
+		"width": 965,
+		"height": 400
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": -337,
+		"top": 187,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/HomeForm/method.4dm": {
+		"left": 143,
+		"top": 213,
+		"width": 1536,
+		"height": 789
+	},
+	"Sources/Forms/newStockInfoForm/method.4dm": {
+		"left": 379,
+		"top": 195,
+		"width": 1316,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Input10.4dm": {
+		"left": 143,
+		"top": 270,
+		"width": 965,
+		"height": 490
+	},
+	"Trash/Methods/(forceTwoDecimalPlaces).4dm": {
+		"left": 596,
+		"top": 427,
+		"width": 965,
+		"height": 490
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Input11.4dm": {
+		"left": 375,
+		"top": 512,
+		"width": 965,
+		"height": 490
+	},
+	"Sources/Methods/LoadTradingViewChart.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Button1.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/chartWebArea.4dm": {
+		"left": 210,
+		"top": 233,
+		"width": 1065,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/webArea.4dm": {
+		"left": 833,
+		"top": 129,
+		"width": 1065,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/url.4dm": {
+		"left": 276,
+		"top": 151,
+		"width": 1065,
+		"height": 729
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/WebArea.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Methods/GetCompanyLogo.4dm": {
+		"left": 53,
+		"top": 133,
+		"width": 1115,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Input.4dm": {
+		"left": 19,
+		"top": 125,
+		"width": 965,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
+		"left": 760,
+		"top": 210,
+		"width": 965,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Input3.4dm": {
+		"left": 555,
+		"top": 199,
+		"width": 1117,
+		"height": 777
+	},
+	"Sources/Methods/calculateStopLossTarget.4dm": {
+		"left": -318,
+		"top": 376,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/Input4.4dm": {
+		"left": 46,
+		"top": 311,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/strikePriceInput.4dm": {
+		"left": -91,
+		"top": 367,
+		"width": 1181,
+		"height": 748
+	},
+	"Sources/Forms/newStockInfoForm/ObjectMethods/changeString.4dm": {
+		"left": -115,
+		"top": 306,
+		"width": 1902,
+		"height": 913
+	}
+}

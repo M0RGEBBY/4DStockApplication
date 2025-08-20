@@ -1,0 +1,36 @@
+{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Main Menu",
+			"items": [
+				{
+					"link": 32000
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 32003,
+			"title": ":xliff:CommonMenuMode",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemDesign",
+					"action": "design"
+				}
+			]
+		},
+		{
+			"link": 32000,
+			"title": "Test",
+			"items": [
+				{
+					"title": "Stock Application",
+					"method": "formController",
+					"startNewProcess": true
+				}
+			]
+		}
+	]
+}
