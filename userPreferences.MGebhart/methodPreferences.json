@@ -119,13 +119,13 @@
 		"stamp": "2025-08-12T14:52:43.409Z"
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"startSelection": 0,
-		"endSelection": 3,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 10,
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T19:10:05.194Z"
+		"stamp": "2025-08-25T19:31:24.384Z"
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"startSelection": 71,
@@ -292,13 +292,13 @@
 		"stamp": "2025-08-13T13:17:40.796Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-21T15:22:03.612Z"
+		"stamp": "2025-08-25T19:31:20.622Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/LB_WatchlistStocks.4dm": {
 		"startSelection": 0,

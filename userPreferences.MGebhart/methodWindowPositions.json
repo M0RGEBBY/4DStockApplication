@@ -79,7 +79,7 @@
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
 		"left": 16,
-		"top": 144,
+		"top": 124,
 		"width": 1536,
 		"height": 941
 	},
@@ -193,7 +193,7 @@
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
 		"left": 0,
-		"top": 78,
+		"top": 109,
 		"width": 1518,
 		"height": 793
 	},

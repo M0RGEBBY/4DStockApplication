@@ -207,11 +207,23 @@
 					"textDecoration": "none",
 					"dataSource": "\"Watchlist\"",
 					"textAlign": "center"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 430,
+					"left": 329,
+					"width": 136,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 57,
+	"geometryStamp": 59,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
