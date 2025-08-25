@@ -1,8 +1,16 @@
 {
 	"editors": [
 		{
+			"type": "explorer"
+		},
+		{
+			"type": "form",
+			"id": 224,
+			"formName": "HomeForm"
+		},
+		{
 			"type": "method",
-			"id": 2147483631,
+			"id": 2147483630,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "newStockInfoForm",
@@ -11,44 +19,11 @@
 			}
 		},
 		{
-			"type": "form",
-			"id": 440,
-			"formName": "newStockInfoForm"
-		},
-		{
-			"type": "explorer"
-		},
-		{
-			"type": "form",
-			"id": 439,
-			"formName": "HomeForm"
-		},
-		{
 			"type": "method",
-			"id": 2147483636,
+			"id": 2147483615,
 			"codeDescriptor": {
-				"type": 2,
-				"formName": "HomeForm",
-				"objectName": "refreshButton",
-				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/refreshButton.4dm"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483632,
-			"codeDescriptor": {
-				"type": 3,
-				"formName": "newStockInfoForm",
-				"methodPath": "/SOURCES/Forms/newStockInfoForm/method.4dm"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483633,
-			"codeDescriptor": {
-				"type": 3,
-				"formName": "HomeForm",
-				"methodPath": "/SOURCES/Forms/HomeForm/method.4dm"
+				"type": 1,
+				"methodName": "GetCurrentPrice"
 			}
 		}
 	]

@@ -70,20 +70,22 @@
 						{
 							"header": {
 								"text": "Ticker",
-								"name": "Header1"
+								"name": "Header1",
+								"textAlign": "left"
 							},
 							"name": "Ticker",
 							"footer": {
 								"name": "Footer1"
 							},
-							"dataSource": "This:C1470.Ticker",
+							"dataSource": "This:C1470.ticker",
 							"method": "ObjectMethods/Ticker.4dm",
 							"width": 124
 						},
 						{
 							"header": {
 								"name": "CompanyName",
-								"text": "CompanyName"
+								"text": "CompanyName",
+								"textAlign": "left"
 							},
 							"name": "Column1",
 							"dataSource": "This:C1470.CompanyName",
@@ -94,8 +96,21 @@
 						},
 						{
 							"header": {
+								"name": "Header5",
+								"text": "Current Price",
+								"textAlign": "left"
+							},
+							"name": "Column6",
+							"dataSource": "\"$\"+String:C10(This:C1470.currentPrice; \"###0.00\")",
+							"footer": {
+								"name": "Footer7"
+							}
+						},
+						{
+							"header": {
 								"name": "Header2",
-								"text": "Resistance Level"
+								"text": "Resistance Level",
+								"textAlign": "left"
 							},
 							"name": "Column2",
 							"footer": {
@@ -106,7 +121,8 @@
 						{
 							"header": {
 								"name": "Header3",
-								"text": "Support Level"
+								"text": "Support Level",
+								"textAlign": "left"
 							},
 							"name": "Column3",
 							"dataSource": "\"$\"+String:C10(This:C1470.botResistance; \"###0.00\")",
@@ -117,7 +133,8 @@
 						{
 							"header": {
 								"name": "Header4",
-								"text": "Strike Price"
+								"text": "Strike Price",
+								"textAlign": "left"
 							},
 							"name": "Column4",
 							"dataSource": "\"$\"+String:C10(This:C1470.strikePrice; \"###0.00\")",
@@ -128,7 +145,8 @@
 						{
 							"header": {
 								"name": "Percentage From Strike",
-								"text": "% From Strike"
+								"text": "% From Strike",
+								"textAlign": "left"
 							},
 							"name": "Column5",
 							"width": 158,
@@ -173,11 +191,27 @@
 					"events": [
 						"onClick"
 					]
+				},
+				"watchlistHeader": {
+					"type": "input",
+					"left": 35,
+					"top": 30,
+					"width": 853,
+					"height": 32,
+					"enterable": false,
+					"fontWeight": "bold",
+					"fontSize": 30,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"dataSource": "\"Watchlist\"",
+					"textAlign": "center"
 				}
 			}
 		}
 	],
-	"geometryStamp": 42,
+	"geometryStamp": 57,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
@@ -185,5 +219,6 @@
 			"View 1": {}
 		}
 	},
-	"method": "method.4dm"
+	"method": "method.4dm",
+	"colorScheme": "dark"
 }

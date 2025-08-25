@@ -18,15 +18,13 @@
 		"stamp": "2025-07-30T17:38:04.679Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
-		"startSelection": 42,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 13,
-		"lastSelectedLine": 7,
-		"folding": [
-			9
-		],
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T17:36:50.455Z"
+		"stamp": "2025-08-25T18:19:29.211Z"
 	},
 	"Sources/Methods/populateStockTable.4dm": {
 		"startSelection": 4,
@@ -121,19 +119,19 @@
 		"stamp": "2025-08-12T14:52:43.409Z"
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"startSelection": 26,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T15:21:47.595Z"
+		"stamp": "2025-08-25T18:18:02.884Z"
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
-		"startSelection": 42,
-		"endSelection": 42,
-		"firstSelectedLine": 11,
-		"lastSelectedLine": 11,
+		"startSelection": 71,
+		"endSelection": 81,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
 		"folding": [
 			12
 		],
@@ -240,13 +238,13 @@
 		"stamp": "2025-08-19T14:38:01.376Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
-		"startSelection": 119,
-		"endSelection": 38,
-		"firstSelectedLine": 23,
-		"lastSelectedLine": 23,
+		"startSelection": 41,
+		"endSelection": 41,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T17:41:32.107Z"
+		"stamp": "2025-08-25T18:10:01.899Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input3.4dm": {
 		"startSelection": 0,
@@ -258,10 +256,10 @@
 		"stamp": "2025-08-19T19:14:24.367Z"
 	},
 	"Sources/Methods/calculateStopLossTarget.4dm": {
-		"startSelection": 56,
-		"endSelection": 56,
-		"firstSelectedLine": 4,
-		"lastSelectedLine": 4,
+		"startSelection": 0,
+		"endSelection": 18,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-19T19:32:04.865Z"
@@ -312,13 +310,13 @@
 		"stamp": "2025-08-22T18:15:05.670Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
-		"startSelection": 63,
-		"endSelection": 27,
-		"firstSelectedLine": 11,
-		"lastSelectedLine": 11,
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T17:38:12.057Z"
+		"stamp": "2025-08-25T18:16:28.079Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/Ticker.4dm": {
 		"startSelection": 0,
@@ -328,5 +326,32 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-22T19:42:47.921Z"
+	},
+	"Sources/Methods/CalculatePercentageFromStrike.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-25T18:26:11.494Z"
+	},
+	"Sources/Methods/PopulateWatchlist.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-25T18:28:14.241Z"
+	},
+	"Sources/Methods/GetCurrentPrice.4dm": {
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-25T18:24:33.981Z"
 	}
 }

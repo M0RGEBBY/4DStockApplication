@@ -78,16 +78,16 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"left": 36,
-		"top": 233,
+		"left": -201,
+		"top": 345,
 		"width": 1920,
-		"height": 989
+		"height": 1127
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
-		"left": 379,
-		"top": 175,
-		"width": 1316,
-		"height": 748
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input10.4dm": {
 		"left": 143,
@@ -156,10 +156,10 @@
 		"height": 748
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
-		"left": 454,
-		"top": 162,
-		"width": 1902,
-		"height": 913
+		"left": 0,
+		"top": 58,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input3.4dm": {
 		"left": 555,
@@ -204,8 +204,8 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
-		"left": 299,
-		"top": 260,
+		"left": -190,
+		"top": 354,
 		"width": 1902,
 		"height": 913
 	},
@@ -214,5 +214,23 @@
 		"top": 109,
 		"width": 1920,
 		"height": 931
+	},
+	"Sources/Methods/CalculatePercentageFromStrike.4dm": {
+		"left": 374,
+		"top": 210,
+		"width": 1164,
+		"height": 777
+	},
+	"Sources/Methods/PopulateWatchlist.4dm": {
+		"left": 491,
+		"top": 352,
+		"width": 1316,
+		"height": 748
+	},
+	"Sources/Methods/GetCurrentPrice.4dm": {
+		"left": 446,
+		"top": 217,
+		"width": 1316,
+		"height": 748
 	}
 }

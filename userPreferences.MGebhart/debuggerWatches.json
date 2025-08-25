@@ -54,6 +54,19 @@
 					{
 						"type": 66,
 						"formula": "LB_WatchlistStocks"
+					},
+					{
+						"type": 66,
+						"formula": "obj.Ticker"
+					},
+					{
+						"type": 66,
+						"formula": "$stockEntity.Ticker"
+					},
+					{
+						"type": 66,
+						"formula": "$watchlist",
+						"expanded": true
 					}
 				]
 			},
@@ -126,6 +139,27 @@
 					{
 						"type": 66,
 						"formula": "$bottomResistancePrice"
+					}
+				]
+			},
+			{
+				"path": "CalculatePercentageFromStrike",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$currentPrice"
+					},
+					{
+						"type": 66,
+						"formula": "$percentageFromStrike"
+					},
+					{
+						"type": 66,
+						"formula": "$ticker"
+					},
+					{
+						"type": 66,
+						"formula": "$finnhubApiKey"
 					}
 				]
 			},
@@ -221,6 +255,15 @@
 						"type": 66,
 						"formula": "$request.response.body.results",
 						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "PopulateWatchlist",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$obj.ticker"
 					}
 				]
 			}

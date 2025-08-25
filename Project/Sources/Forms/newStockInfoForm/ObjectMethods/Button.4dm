@@ -21,9 +21,6 @@ Case of
 			$watchlistStock.TopResistance:=$topResistancePrice
 			$watchlistStock.BotResistance:=$bottomResistancePrice
 			$watchlistStock.stockUUID:=$stock[0].UUID
-			$watchlistStock.PercentageFromStrike:=Round:C94(((Num:C11($strikePrice)-Num:C11(Form:C1466.currentPrice))/Num:C11(Form:C1466.currentPrice))*100; 2)
-			
-			// Save new record
 			$watchlistStock.save()
 			ACCEPT:C269
 			

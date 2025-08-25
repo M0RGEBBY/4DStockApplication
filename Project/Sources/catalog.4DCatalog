@@ -26,7 +26,6 @@
 		<field name="StopLossPrice" uuid="CCA8C83900B0864EB33B47490F8750F2" type="6" id="7">
 			<field_extra multi_line="false"/>
 		</field>
-		<field name="PercentageFromStrike" uuid="D8915F509DFB464B9B7715F36DB19186" type="6" id="8"/>
 		<field name="stockUUID" uuid="44415562CE359443816699FC7F667996" type="10" store_as_UUID="true" id="9"/>
 		<primary_key field_name="UUID" field_uuid="85270A1438FC454E97D1A4E5214A5174"/>
 	</table>
