@@ -15,5 +15,6 @@ Case of
 		Form:C1466.watchlistStocks:=$watchlist
 		
 		Form:C1466.watchlistStocks:=$watchlist
+		Form:C1466.watchlistStocks:=$watchlist
 		
 End case 

@@ -1,16 +1,6 @@
 {
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483614,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "HomeForm",
-				"objectName": "Button",
-				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/Button.4dm"
-			}
-		},
-		{
 			"type": "form",
 			"id": 224,
 			"formName": "HomeForm"
@@ -43,6 +33,16 @@
 				"type": 3,
 				"formName": "HomeForm",
 				"methodPath": "/SOURCES/Forms/HomeForm/method.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483614,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "HomeForm",
+				"objectName": "Button",
+				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/Button.4dm"
 			}
 		}
 	]
