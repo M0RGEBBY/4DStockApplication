@@ -1,3 +1,4 @@
+'''
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
@@ -7,3 +8,4 @@ Case of
 		Form:C1466.watchlistStocks:=$watchlist
 		
 End case 
+'''
