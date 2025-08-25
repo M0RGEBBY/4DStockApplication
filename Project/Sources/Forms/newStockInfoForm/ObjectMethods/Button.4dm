@@ -34,7 +34,7 @@ Case of
 			CLOSE WINDOW:C154()
 			
 		Else 
-			ALERT:C41("Error: You must enter a stop loss, strike price, and ticker to proceed")
+			ALERT:C41("Error: You must enter all values.")
 		End if 
 		
 End case 

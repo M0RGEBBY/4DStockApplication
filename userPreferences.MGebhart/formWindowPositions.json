@@ -1,13 +1,13 @@
 {
-	"Sources/Forms/newStockInfoForm/form.4DForm": {
-		"left": 0,
-		"top": 109,
-		"width": 1518,
-		"height": 793
-	},
 	"Sources/Forms/HomeForm/form.4DForm": {
 		"left": 62,
 		"top": 325,
+		"width": 1518,
+		"height": 793
+	},
+	"Sources/Forms/newStockInfoForm/form.4DForm": {
+		"left": 1107,
+		"top": 416,
 		"width": 1518,
 		"height": 793
 	}

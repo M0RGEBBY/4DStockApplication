@@ -12,8 +12,8 @@
 		"height": 913
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
-		"left": 642,
-		"top": 584,
+		"left": 746,
+		"top": 384,
 		"width": 965,
 		"height": 931
 	},
@@ -78,14 +78,14 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"left": 0,
-		"top": 0,
+		"left": 36,
+		"top": 233,
 		"width": 1920,
 		"height": 989
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"left": 379,
-		"top": 195,
+		"top": 175,
 		"width": 1316,
 		"height": 748
 	},
@@ -156,8 +156,8 @@
 		"height": 748
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
-		"left": 0,
-		"top": 90,
+		"left": 454,
+		"top": 162,
 		"width": 1902,
 		"height": 913
 	},
@@ -204,8 +204,8 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
-		"left": -381,
-		"top": 156,
+		"left": 299,
+		"top": 260,
 		"width": 1902,
 		"height": 913
 	},

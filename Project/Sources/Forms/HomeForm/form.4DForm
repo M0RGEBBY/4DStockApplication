@@ -51,7 +51,7 @@
 					"defaultButton": false,
 					"method": "ObjectMethods/refreshButton.4dm"
 				},
-				"LB_WatchlistStocks": {
+				"Form.LB_WatchlistStocks": {
 					"type": "listbox",
 					"left": 35,
 					"top": 76,
@@ -65,7 +65,7 @@
 					],
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.watchlistStocks",
-					"method": "ObjectMethods/LB_WatchlistStocks.4dm",
+					"method": "ObjectMethods/Form.LB_WatchlistStocks.4dm",
 					"columns": [
 						{
 							"header": {
@@ -177,7 +177,7 @@
 			}
 		}
 	],
-	"geometryStamp": 41,
+	"geometryStamp": 42,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

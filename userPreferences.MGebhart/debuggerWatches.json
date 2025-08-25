@@ -45,6 +45,19 @@
 				]
 			},
 			{
+				"path": "[projectForm]/HomeForm/refreshButton",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.LB_WatchlistStocks"
+					},
+					{
+						"type": 66,
+						"formula": "LB_WatchlistStocks"
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/newStockInfoForm/{formMethod}",
 				"watches": [
 					{
@@ -103,7 +116,16 @@
 					},
 					{
 						"type": 66,
-						"formula": "$watchlistStock"
+						"formula": "$watchlistStock",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock.BotResistance"
+					},
+					{
+						"type": 66,
+						"formula": "$bottomResistancePrice"
 					}
 				]
 			},
