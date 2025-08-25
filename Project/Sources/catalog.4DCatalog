@@ -50,7 +50,7 @@
 			</field_ref>
 		</related_field>
 	</relation>
-	<relation uuid="D907B024BD2FD74CB3D6DBA1ABD6CF5F" name_Nto1="WatchlistStock" name_1toN="Stock" state="1">
+	<relation uuid="D907B024BD2FD74CB3D6DBA1ABD6CF5F" name_Nto1="watchlistStocks" name_1toN="Stocks" state="1">
 		<related_field kind="source">
 			<field_ref uuid="44415562CE359443816699FC7F667996" name="stockUUID">
 				<table_ref uuid="3AC3224511112741B531B547DE764DDF" name="WatchlistStock"/>

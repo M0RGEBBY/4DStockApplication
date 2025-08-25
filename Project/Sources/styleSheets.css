@@ -1,0 +1,131 @@
+/* ------------------------ */
+/* Standard Classes        */
+/* ------------------------ */
+
+.Password {
+    font-family: "%password";
+    font-size: 12px;
+}
+
+/* ------------------------ */
+/* Standard Text Classes    */
+/* (used for buttons and labels) */
+/* ------------------------ */
+
+.text-small {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.text-large {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.text-xlarge {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}
+
+/* ------------------------ */
+/* Standard Field Entry Classes */
+/* ------------------------ */
+
+.fieldEntry-small {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.fieldEntry {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.fieldEntry-large {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.fieldEntry-xlarge {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/* ------------------------ */
+/* Standard Heading Classes */
+/* ------------------------ */
+
+.heading-small {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.heading-large {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.heading-xLarge {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.heading-xxLarge {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* ------------------------ */
+/* Listbox Classes          */
+/* ------------------------ */
+
+.lbHeading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lbValue {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+/* ------------------------ */
+/* Classes for Text Color    */
+/* ------------------------ */
+/* Use these in combination with other classes to adjust text color */
+
+/* Sets text property of object to dark blue */
+.textDarkBlue {
+    color: rgb(0, 58, 112);
+}
+
+/* Sets text property of object to light blue */
+.textLightBlue {
+    color: rgb(97, 180, 228);
+}
+
+/* Sets text property of object to medium blue */
+.textMediumBlue {
+    color: rgb(0, 113, 206);
+}
+
+/* Sets text property of object to dark red */
+.textRed {
+    color: red;
+}

@@ -1,3 +1,5 @@
-2025/08/20-11:03:04.090 4e90 Reusing MANIFEST C:\Users\mgebhart\OneDrive - Metal Technologies, Inc\Desktop\Morgan's 4D Projects\stockApplication\userPreferences.MGebhart\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/20-11:03:04.112 4e90 Recovering log #25
-2025/08/20-11:03:04.114 4e90 Reusing old log C:\Users\mgebhart\OneDrive - Metal Technologies, Inc\Desktop\Morgan's 4D Projects\stockApplication\userPreferences.MGebhart\EBWebView\Default\Local Storage\leveldb/000025.log 
+2025/08/25-11:52:06.249 64ec Reusing MANIFEST C:\4DProjects\stockApplication\userPreferences.MGebhart\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/25-11:52:06.259 64ec Recovering log #29
+2025/08/25-11:52:06.259 64ec Level-0 table #31: started
+2025/08/25-11:52:06.265 64ec Level-0 table #31: 26112 bytes OK
+2025/08/25-11:52:06.270 64ec Delete type=0 #29

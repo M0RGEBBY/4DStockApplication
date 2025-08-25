@@ -12,15 +12,15 @@
 		"height": 913
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
-		"left": 0,
-		"top": 78,
-		"width": 1920,
+		"left": 642,
+		"top": 584,
+		"width": 965,
 		"height": 931
 	},
 	"Sources/Methods/populateStockTable.4dm": {
 		"left": 0,
 		"top": 78,
-		"width": 1898,
+		"width": 1902,
 		"height": 913
 	},
 	"Sources/Classes/Stock.4dm": {
@@ -54,8 +54,8 @@
 		"height": 789
 	},
 	"Sources/Forms/AddStockForm/ObjectMethods/nextButton.4dm": {
-		"left": 0,
-		"top": 78,
+		"left": -36,
+		"top": 173,
 		"width": 1920,
 		"height": 931
 	},
@@ -78,10 +78,10 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"left": 143,
-		"top": 213,
-		"width": 1536,
-		"height": 789
+		"left": 0,
+		"top": 0,
+		"width": 1920,
+		"height": 989
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"left": 379,
@@ -110,8 +110,8 @@
 	"Sources/Methods/LoadTradingViewChart.4dm": {
 		"left": 0,
 		"top": 78,
-		"width": 1902,
-		"height": 913
+		"width": 1518,
+		"height": 793
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button1.4dm": {
 		"left": 0,
@@ -156,10 +156,10 @@
 		"height": 748
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
-		"left": 760,
-		"top": 210,
-		"width": 965,
-		"height": 748
+		"left": 0,
+		"top": 90,
+		"width": 1902,
+		"height": 913
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input3.4dm": {
 		"left": 555,
@@ -168,10 +168,10 @@
 		"height": 777
 	},
 	"Sources/Methods/calculateStopLossTarget.4dm": {
-		"left": -318,
-		"top": 376,
-		"width": 1902,
-		"height": 913
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input4.4dm": {
 		"left": 46,
@@ -180,8 +180,8 @@
 		"height": 913
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/strikePriceInput.4dm": {
-		"left": -91,
-		"top": 367,
+		"left": 121,
+		"top": 290,
 		"width": 1181,
 		"height": 748
 	},
@@ -190,5 +190,29 @@
 		"top": 306,
 		"width": 1902,
 		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1518,
+		"height": 793
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/LB_WatchlistStocks.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
+		"left": -381,
+		"top": 156,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Ticker.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
 	}
 }

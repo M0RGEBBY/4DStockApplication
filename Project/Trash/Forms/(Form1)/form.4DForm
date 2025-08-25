@@ -1,0 +1,163 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "text-small",
+					"top": 43,
+					"left": 29,
+					"width": 146,
+					"height": 15,
+					"class": "text-small"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "text",
+					"top": 66,
+					"left": 29,
+					"width": 374,
+					"height": 20,
+					"class": "text"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "text-large",
+					"top": 94,
+					"left": 29,
+					"width": 146,
+					"height": 20,
+					"class": "text-large"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "text-xlarge",
+					"top": 130,
+					"left": 29,
+					"width": 234,
+					"height": 44,
+					"class": "text-xlarge"
+				},
+				"fieldEntry-small": {
+					"type": "input",
+					"left": 358,
+					"top": 37,
+					"width": 201,
+					"height": 16,
+					"class": "fieldEntry-small"
+				},
+				"fieldEntry": {
+					"type": "input",
+					"left": 358,
+					"top": 73,
+					"width": 201,
+					"height": 16,
+					"class": "fieldEntry"
+				},
+				"fieldEntry-large": {
+					"type": "input",
+					"left": 358,
+					"top": 109,
+					"width": 201,
+					"height": 16,
+					"class": "fieldEntry-large"
+				},
+				"fieldEntry-xlarge": {
+					"type": "input",
+					"left": 358,
+					"top": 145,
+					"width": 201,
+					"height": 16,
+					"class": "fieldEntry-xlarge textRed"
+				},
+				"headingSmall": {
+					"type": "text",
+					"text": "heading-small",
+					"top": 35,
+					"left": 650,
+					"width": 292,
+					"height": 30,
+					"class": "heading-small"
+				},
+				"heading": {
+					"type": "text",
+					"text": "heading",
+					"top": 66,
+					"left": 650,
+					"width": 292,
+					"height": 30,
+					"class": "heading"
+				},
+				"heading1": {
+					"type": "text",
+					"text": "heading-large",
+					"top": 97,
+					"left": 650,
+					"width": 292,
+					"height": 30,
+					"class": "heading-large"
+				},
+				"heading2": {
+					"type": "text",
+					"text": "heading-xLarge",
+					"top": 128,
+					"left": 650,
+					"width": 443,
+					"height": 44,
+					"class": "heading-xLarge"
+				},
+				"heading3": {
+					"type": "text",
+					"text": "heading-xxLarge",
+					"top": 173,
+					"left": 650,
+					"width": 518,
+					"height": 59,
+					"class": "heading-xxLarge"
+				}
+			}
+		}
+	],
+	"geometryStamp": 83,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

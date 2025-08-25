@@ -27,10 +27,10 @@
 		"stamp": "2025-08-12T14:57:31.565Z"
 	},
 	"Sources/Methods/populateStockTable.4dm": {
-		"startSelection": 0,
+		"startSelection": 4,
 		"endSelection": 0,
-		"firstSelectedLine": 35,
-		"lastSelectedLine": 35,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
 		"folding": [
 			44
 		],
@@ -83,10 +83,10 @@
 		"stamp": "2025-08-04T12:33:03.677Z"
 	},
 	"Sources/Forms/AddStockForm/ObjectMethods/nextButton.4dm": {
-		"startSelection": 27,
-		"endSelection": 27,
-		"firstSelectedLine": 4,
-		"lastSelectedLine": 4,
+		"startSelection": 14,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 5,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-14T14:55:20.187Z"
@@ -121,11 +121,11 @@
 	"Sources/Forms/HomeForm/method.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-04T14:04:01.970Z"
+		"stamp": "2025-08-25T15:21:47.595Z"
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"startSelection": 42,
@@ -172,7 +172,7 @@
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-21T12:09:59.047Z"
+		"stamp": "2025-08-21T12:11:27.961Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button1.4dm": {
 		"startSelection": 59,
@@ -238,13 +238,13 @@
 		"stamp": "2025-08-19T14:38:01.376Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
-		"startSelection": 40,
-		"endSelection": 40,
-		"firstSelectedLine": 16,
-		"lastSelectedLine": 16,
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-20T13:34:01.806Z"
+		"stamp": "2025-08-25T15:54:55.350Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input3.4dm": {
 		"startSelection": 0,
@@ -290,5 +290,41 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-13T13:17:40.796Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-21T15:22:03.612Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/LB_WatchlistStocks.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-22T18:15:05.670Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-22T19:25:06.126Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Ticker.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-22T19:42:47.921Z"
 	}
 }

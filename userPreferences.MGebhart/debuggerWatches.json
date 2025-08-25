@@ -27,6 +27,24 @@
 				]
 			},
 			{
+				"path": "[projectForm]/HomeForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.watchlistStocks",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock.PercentageFromStrike"
+					},
+					{
+						"type": 66,
+						"formula": "String:C10($watchlistStock.PercentageFromStrike; \"###0.00\")+\"%\""
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/newStockInfoForm/{formMethod}",
 				"watches": [
 					{
@@ -82,6 +100,10 @@
 					{
 						"type": 66,
 						"formula": "$watchlistStock.PercentageFromStrike"
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock"
 					}
 				]
 			},
