@@ -4,6 +4,11 @@ Case of
 		
 		$watchlist:=PopulateWatchlist()
 		
+		$watchlist:=PopulateWatchlist()
+		
+		
+		$watchlist:=PopulateWatchlist()
+		
 		// Assign to form
 		Form:C1466.watchlistStocks:=$watchlist
 		
