@@ -27,6 +27,41 @@
 				]
 			},
 			{
+				"path": "[projectForm]/EditWatchlistStockForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466",
+						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditWatchlistStockForm/strikePriceInput",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.strikePrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.WatchlistStock.strikePrice"
+					},
+					{
+						"type": 66,
+						"formula": "amountText"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.amountText"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.strikePriceText"
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/HomeForm/{formMethod}",
 				"watches": [
 					{
@@ -67,6 +102,15 @@
 						"type": 66,
 						"formula": "$watchlist",
 						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/HomeForm/removeButton1",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.selectedWatchlistStock"
 					}
 				]
 			},

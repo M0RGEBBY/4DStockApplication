@@ -18,10 +18,10 @@
 		"stamp": "2025-07-30T17:38:04.679Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
-		"startSelection": 0,
+		"startSelection": 22,
 		"endSelection": 0,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-25T18:19:29.211Z"
@@ -119,10 +119,10 @@
 		"stamp": "2025-08-12T14:52:43.409Z"
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"startSelection": 9,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 9,
-		"lastSelectedLine": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-25T19:31:24.384Z"
@@ -276,8 +276,8 @@
 	"Sources/Forms/newStockInfoForm/ObjectMethods/strikePriceInput.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-19T19:42:34.323Z"
@@ -294,11 +294,11 @@
 	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
 		"startSelection": 32,
 		"endSelection": 32,
-		"firstSelectedLine": 17,
-		"lastSelectedLine": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T19:39:24.518Z"
+		"stamp": "2025-08-25T19:44:49.680Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/LB_WatchlistStocks.4dm": {
 		"startSelection": 0,
@@ -337,13 +337,13 @@
 		"stamp": "2025-08-25T18:26:11.494Z"
 	},
 	"Sources/Methods/PopulateWatchlist.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 16,
-		"lastSelectedLine": 17,
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T18:28:14.241Z"
+		"stamp": "2025-08-25T20:33:24.145Z"
 	},
 	"Sources/Methods/GetCurrentPrice.4dm": {
 		"startSelection": 25,
@@ -353,5 +353,77 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-25T18:24:33.981Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/removeButton1.4dm": {
+		"startSelection": 47,
+		"endSelection": 47,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T17:21:31.721Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
+		"startSelection": 75,
+		"endSelection": 75,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T20:31:31.084Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/changeString.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-13T13:17:40.796Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input6.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T17:59:03.695Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input7.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T19:52:38.915Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input8.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T19:52:42.548Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input4.4dm": {
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T19:55:01.924Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-26T20:24:45.008Z"
 	}
 }

@@ -3,24 +3,15 @@
 		{
 			"type": "form",
 			"id": 224,
-			"formName": "HomeForm"
+			"formName": "EditWatchlistStockForm"
 		},
 		{
 			"type": "method",
 			"id": 2147483630,
 			"codeDescriptor": {
-				"type": 2,
-				"formName": "newStockInfoForm",
-				"objectName": "Button",
-				"methodPath": "/SOURCES/Forms/newStockInfoForm/ObjectMethods/Button.4dm"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483615,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "GetCurrentPrice"
+				"type": 3,
+				"formName": "EditWatchlistStockForm",
+				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/method.4dm"
 			}
 		},
 		{
@@ -28,21 +19,45 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483633,
+			"id": 2147483617,
 			"codeDescriptor": {
-				"type": 3,
-				"formName": "HomeForm",
-				"methodPath": "/SOURCES/Forms/HomeForm/method.4dm"
+				"type": 2,
+				"formName": "EditWatchlistStockForm",
+				"objectName": "strikePriceInput",
+				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm"
 			}
 		},
 		{
 			"type": "method",
-			"id": 2147483614,
+			"id": 2147483633,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "EditWatchlistStockForm",
+				"objectName": "Input4",
+				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/ObjectMethods/Input4.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 225,
+			"formName": "HomeForm"
+		},
+		{
+			"type": "method",
+			"id": 2147483642,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "GetCurrentPrice"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483621,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "HomeForm",
-				"objectName": "Button",
-				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/Button.4dm"
+				"objectName": "addButton",
+				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/addButton.4dm"
 			}
 		}
 	]

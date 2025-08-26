@@ -66,6 +66,7 @@
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.watchlistStocks",
 					"method": "ObjectMethods/Form.LB_WatchlistStocks.4dm",
+					"currentItemSource": "Form:C1466.selectedWatchlistStock",
 					"columns": [
 						{
 							"header": {
@@ -184,13 +185,14 @@
 				"removeButton1": {
 					"type": "button",
 					"text": "Edit",
-					"top": 210,
+					"top": 164,
 					"left": 923,
 					"width": 187,
 					"height": 42,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/removeButton1.4dm"
 				},
 				"watchlistHeader": {
 					"type": "input",
@@ -207,23 +209,11 @@
 					"textDecoration": "none",
 					"dataSource": "\"Watchlist\"",
 					"textAlign": "center"
-				},
-				"Button": {
-					"type": "button",
-					"text": "Button",
-					"top": 430,
-					"left": 329,
-					"width": 136,
-					"height": 22,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 59,
+	"geometryStamp": 61,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

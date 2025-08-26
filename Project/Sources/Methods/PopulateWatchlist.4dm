@@ -18,6 +18,7 @@ For each ($watchlistStock; ds:C1482.WatchlistStock.all().toCollection())
 	$obj.CompanyName:=$stockEntity.CompanyName
 	$obj.currentPrice:=GetCurrentPrice($obj.ticker; $obj.strikePrice)
 	$obj.percentageFromStrike:=CalculatePercentageFromStrike($obj.currentPrice; $obj.strikePrice)
+	$obj.exchange:=$stockEntity.Exchange
 	
 	$watchlist.push($obj)
 End for each 
