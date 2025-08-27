@@ -27,6 +27,103 @@
 				]
 			},
 			{
+				"path": "[projectForm]/EditWatchlistStockForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466",
+						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditWatchlistStockForm/Input4",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.WatchlistStock.stopLossPrice"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditWatchlistStockForm/strikePriceInput",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.strikePrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.WatchlistStock.strikePrice"
+					},
+					{
+						"type": 66,
+						"formula": "amountText"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.amountText"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.strikePriceText"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/HomeForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.watchlistStocks",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock.PercentageFromStrike"
+					},
+					{
+						"type": 66,
+						"formula": "String:C10($watchlistStock.PercentageFromStrike; \"###0.00\")+\"%\""
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/HomeForm/refreshButton",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.LB_WatchlistStocks"
+					},
+					{
+						"type": 66,
+						"formula": "LB_WatchlistStocks"
+					},
+					{
+						"type": 66,
+						"formula": "obj.Ticker"
+					},
+					{
+						"type": 66,
+						"formula": "$stockEntity.Ticker"
+					},
+					{
+						"type": 66,
+						"formula": "$watchlist",
+						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/HomeForm/removeButton1",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.selectedWatchlistStock"
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/newStockInfoForm/{formMethod}",
 				"watches": [
 					{
@@ -82,6 +179,40 @@
 					{
 						"type": 66,
 						"formula": "$watchlistStock.PercentageFromStrike"
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "$watchlistStock.BotResistance"
+					},
+					{
+						"type": 66,
+						"formula": "$bottomResistancePrice"
+					}
+				]
+			},
+			{
+				"path": "CalculatePercentageFromStrike",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$currentPrice"
+					},
+					{
+						"type": 66,
+						"formula": "$percentageFromStrike"
+					},
+					{
+						"type": 66,
+						"formula": "$ticker"
+					},
+					{
+						"type": 66,
+						"formula": "$finnhubApiKey"
 					}
 				]
 			},
@@ -177,6 +308,15 @@
 						"type": 66,
 						"formula": "$request.response.body.results",
 						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "PopulateWatchlist",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$obj.ticker"
 					}
 				]
 			}

@@ -5,4 +5,10 @@ Case of
 		// Pass Form along so popup forms can access the window reference
 		DIALOG:C40("AddStockForm")
 		
+		$watchlist:=PopulateWatchlist
+		
+		// Assign to form
+		Form:C1466.watchlistStocks:=$watchlist
+		Form:C1466.watchlistStocks:=Form:C1466.watchlistStocks
+		
 End case 

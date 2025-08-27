@@ -1,10 +1,11 @@
 [
 	{
-		"line": 4,
+		"line": 9,
 		"method": {
 			"type": 2,
-			"formName": "newStockInfoForm",
-			"objectName": "Button1"
+			"formName": "EditWatchlistStockForm",
+			"objectName": "Button",
+			"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm"
 		}
 	}
 ]

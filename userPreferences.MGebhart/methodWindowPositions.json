@@ -12,6 +12,7 @@
 		"height": 913
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		"left": 0,
 		"top": 78,
@@ -21,12 +22,17 @@
 		"top": 148,
 		"width": 965,
 >>>>>>> Stashed changes
+=======
+		"left": 621,
+		"top": 151,
+		"width": 965,
+>>>>>>> master
 		"height": 931
 	},
 	"Sources/Methods/populateStockTable.4dm": {
 		"left": 0,
-		"top": 78,
-		"width": 1898,
+		"top": 109,
+		"width": 1902,
 		"height": 913
 	},
 	"Sources/Classes/Stock.4dm": {
@@ -60,8 +66,8 @@
 		"height": 789
 	},
 	"Sources/Forms/AddStockForm/ObjectMethods/nextButton.4dm": {
-		"left": 0,
-		"top": 78,
+		"left": -36,
+		"top": 173,
 		"width": 1920,
 		"height": 931
 	},
@@ -84,16 +90,16 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"left": 143,
-		"top": 213,
+		"left": 16,
+		"top": 124,
 		"width": 1536,
-		"height": 789
+		"height": 941
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
-		"left": 379,
-		"top": 195,
-		"width": 1316,
-		"height": 748
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input10.4dm": {
 		"left": 143,
@@ -116,8 +122,8 @@
 	"Sources/Methods/LoadTradingViewChart.4dm": {
 		"left": 0,
 		"top": 78,
-		"width": 1902,
-		"height": 913
+		"width": 1518,
+		"height": 793
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button1.4dm": {
 		"left": 0,
@@ -162,10 +168,10 @@
 		"height": 748
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Button.4dm": {
-		"left": 760,
-		"top": 210,
-		"width": 965,
-		"height": 748
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input3.4dm": {
 		"left": 555,
@@ -174,20 +180,20 @@
 		"height": 777
 	},
 	"Sources/Methods/calculateStopLossTarget.4dm": {
-		"left": -318,
-		"top": 376,
-		"width": 1902,
-		"height": 913
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input4.4dm": {
-		"left": 46,
-		"top": 311,
+		"left": -96,
+		"top": 459,
 		"width": 1902,
 		"height": 913
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/strikePriceInput.4dm": {
-		"left": -91,
-		"top": 367,
+		"left": 121,
+		"top": 290,
 		"width": 1181,
 		"height": 748
 	},
@@ -196,8 +202,11 @@
 		"top": 306,
 		"width": 1902,
 		"height": 913
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> master
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
 		"left": 0,
@@ -236,8 +245,13 @@
 		"height": 748
 	},
 	"Sources/Methods/GetCurrentPrice.4dm": {
+<<<<<<< HEAD
 		"left": 148,
 		"top": 196,
+=======
+		"left": 446,
+		"top": 217,
+>>>>>>> master
 		"width": 1316,
 		"height": 748
 	},
@@ -302,10 +316,17 @@
 		"height": 700
 	},
 	"Sources/Methods/Test.4dm": {
+<<<<<<< HEAD
 		"left": 57,
 		"top": 144,
 		"width": 1390,
 		"height": 913
 >>>>>>> Stashed changes
+=======
+		"left": 58,
+		"top": 119,
+		"width": 1269,
+		"height": 913
+>>>>>>> master
 	}
 }

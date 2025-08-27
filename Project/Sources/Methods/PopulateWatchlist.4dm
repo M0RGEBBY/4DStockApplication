@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //%attributes = {"lang":"en"}
+=======
+//%attributes = {}
+>>>>>>> master
 //Builds a collection using values in the WatchlistStock and Stock table. 
 //Returns a collection of objects
 
