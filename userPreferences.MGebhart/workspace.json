@@ -1,12 +1,17 @@
 {
 	"editors": [
 		{
+			"type": "method",
+			"id": 2147483606,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Test"
+			}
+		},
+		{
 			"type": "form",
 			"id": 224,
 			"formName": "EditWatchlistStockForm"
-		},
-		{
-			"type": "explorer"
 		},
 		{
 			"type": "method",
