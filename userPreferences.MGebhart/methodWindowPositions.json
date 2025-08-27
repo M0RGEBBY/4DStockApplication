@@ -241,7 +241,7 @@
 	},
 	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
 		"left": 62,
-		"top": 89,
+		"top": 88,
 		"width": 965,
 		"height": 913
 	},
@@ -272,8 +272,8 @@
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input4.4dm": {
 		"left": 218,
 		"top": 251,
-		"width": 917,
-		"height": 350
+		"width": 965,
+		"height": 400
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
 		"left": 51,

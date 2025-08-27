@@ -364,13 +364,13 @@
 		"stamp": "2025-08-26T17:21:31.721Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
-		"startSelection": 76,
-		"endSelection": 76,
-		"firstSelectedLine": 41,
-		"lastSelectedLine": 41,
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-27T13:44:39.220Z"
+		"stamp": "2025-08-27T14:27:59.366Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/changeString.4dm": {
 		"startSelection": 0,

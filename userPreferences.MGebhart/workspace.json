@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483633,
+			"id": 2147483629,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "EditWatchlistStockForm",
@@ -25,7 +25,7 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483617,
+			"id": 2147483628,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "EditWatchlistStockForm",
@@ -53,21 +53,21 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483630,
-			"codeDescriptor": {
-				"type": 3,
-				"formName": "EditWatchlistStockForm",
-				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/method.4dm"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483615,
+			"id": 2147483633,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "EditWatchlistStockForm",
 				"objectName": "Button",
 				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483630,
+			"codeDescriptor": {
+				"type": 3,
+				"formName": "EditWatchlistStockForm",
+				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/method.4dm"
 			}
 		}
 	]

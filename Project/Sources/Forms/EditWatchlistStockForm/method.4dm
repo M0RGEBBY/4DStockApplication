@@ -42,7 +42,7 @@ Case of
 				OBJECT SET RGB COLORS:C628(*; "changeString"; "rgb(0,128,0)"; "rgb(220,255,220)")
 			End if 
 		Else 
-			ALERT:C41("Request failed with status: "+String:C10($request.statusCode))
+			ALERT:C41("Request failed with the status: "+String:C10($request.statusCode))
 		End if 
 		
 		
