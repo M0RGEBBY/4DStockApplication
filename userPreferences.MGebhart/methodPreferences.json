@@ -364,13 +364,13 @@
 		"stamp": "2025-08-26T17:21:31.721Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
-		"startSelection": 75,
-		"endSelection": 75,
-		"firstSelectedLine": 19,
-		"lastSelectedLine": 19,
+		"startSelection": 76,
+		"endSelection": 76,
+		"firstSelectedLine": 41,
+		"lastSelectedLine": 41,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-26T20:31:31.084Z"
+		"stamp": "2025-08-27T13:44:39.220Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/changeString.4dm": {
 		"startSelection": 0,
@@ -382,13 +382,13 @@
 		"stamp": "2025-08-13T13:17:40.796Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input6.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-26T17:59:03.695Z"
+		"stamp": "2025-08-27T13:31:16.169Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input7.4dm": {
 		"startSelection": 0,
@@ -409,21 +409,39 @@
 		"stamp": "2025-08-26T19:52:42.548Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input4.4dm": {
-		"startSelection": 37,
-		"endSelection": 37,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2025-08-26T19:55:01.924Z"
-	},
-	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 11,
-		"lastSelectedLine": 11,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T13:21:41.079Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
+		"startSelection": 77,
+		"endSelection": 0,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 12,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-26T20:24:45.008Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm": {
+		"startSelection": 54,
+		"endSelection": 54,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:00:45.929Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input1.4dm": {
+		"startSelection": 80,
+		"endSelection": 80,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T13:31:41.921Z"
 	}
 }

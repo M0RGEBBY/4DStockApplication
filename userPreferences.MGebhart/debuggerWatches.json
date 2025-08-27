@@ -37,6 +37,15 @@
 				]
 			},
 			{
+				"path": "[projectForm]/EditWatchlistStockForm/Input4",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.WatchlistStock.stopLossPrice"
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/EditWatchlistStockForm/strikePriceInput",
 				"watches": [
 					{

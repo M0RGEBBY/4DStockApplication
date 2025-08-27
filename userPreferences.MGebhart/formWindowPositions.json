@@ -1,8 +1,14 @@
 {
 	"Sources/Forms/EditWatchlistStockForm/form.4DForm": {
-		"left": 133,
-		"top": 112,
-		"width": 1133,
+		"left": 198,
+		"top": 178,
+		"width": 1344,
 		"height": 853
+	},
+	"Sources/Forms/HomeForm/form.4DForm": {
+		"left": 63,
+		"top": 278,
+		"width": 1518,
+		"height": 793
 	}
 }

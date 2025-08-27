@@ -88,8 +88,8 @@
 				},
 				"Input7": {
 					"type": "input",
-					"left": 51,
-					"top": 796,
+					"left": 141,
+					"top": 797,
 					"width": 168,
 					"height": 16,
 					"enterable": false,
@@ -97,7 +97,9 @@
 					"borderStyle": "none",
 					"fontWeight": "bold",
 					"fontSize": 16,
-					"method": "ObjectMethods/Input7.4dm"
+					"method": "ObjectMethods/Input7.4dm",
+					"borderRadius": 2,
+					"stroke": "#ff0000"
 				},
 				"Text13": {
 					"type": "text",
@@ -121,7 +123,7 @@
 					"type": "input",
 					"left": 51,
 					"top": 597,
-					"width": 204,
+					"width": 148,
 					"height": 22,
 					"fontSize": 16,
 					"method": "ObjectMethods/strikePriceInput.4dm",
@@ -133,24 +135,29 @@
 					"fontWeight": "bold",
 					"fontStyle": "normal",
 					"textDecoration": "none",
-					"borderStyle": "none",
+					"borderStyle": "solid",
 					"defaultValue": "",
 					"textAlign": "left",
-					"fill": "#EBEBEB"
+					"fill": "#c0c0c0",
+					"borderRadius": 2
 				},
 				"Input4": {
 					"type": "input",
 					"left": 51,
 					"top": 720,
-					"width": 123,
+					"width": 148,
 					"height": 22,
 					"fontSize": 16,
 					"dataSource": "Form:C1466.stopLossText",
 					"method": "ObjectMethods/Input4.4dm",
 					"enterable": true,
 					"fontWeight": "bold",
-					"borderStyle": "none",
-					"fill": "#c0c0c0"
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
 				},
 				"Text9": {
 					"type": "text",
@@ -164,15 +171,19 @@
 					"type": "input",
 					"left": 567,
 					"top": 785,
-					"width": 116,
+					"width": 171,
 					"height": 22,
 					"fontSize": 16,
 					"dataSource": "Form:C1466.supportText",
 					"method": "ObjectMethods/Input6.4dm",
 					"enterable": true,
 					"fontWeight": "bold",
-					"borderStyle": "none",
-					"fill": "#c0c0c0"
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
 				},
 				"Text14": {
 					"type": "text",
@@ -196,11 +207,11 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "Add to Watchlist",
-					"top": 844,
-					"left": 743,
-					"width": 265,
-					"height": 49,
+					"text": "Submit",
+					"top": 849,
+					"left": 854,
+					"width": 154,
+					"height": 42,
 					"events": [
 						"onClick"
 					],
@@ -208,8 +219,8 @@
 				},
 				"Input8": {
 					"type": "input",
-					"left": 51,
-					"top": 832,
+					"left": 141,
+					"top": 828,
 					"width": 168,
 					"height": 16,
 					"enterable": false,
@@ -217,13 +228,15 @@
 					"borderStyle": "none",
 					"fontWeight": "bold",
 					"fontSize": 16,
-					"method": "ObjectMethods/Input8.4dm"
+					"method": "ObjectMethods/Input8.4dm",
+					"borderRadius": 2,
+					"stroke": "#ff0000"
 				},
 				"Input9": {
 					"type": "input",
 					"left": 136,
 					"top": 30,
-					"width": 723,
+					"width": 491,
 					"height": 42,
 					"fontSize": 30,
 					"dataSource": "Form:C1466.WatchlistStock.CompanyName",
@@ -233,11 +246,12 @@
 					"multiline": "no",
 					"stroke": "automatic",
 					"fontWeight": "bold",
-					"borderStyle": "none"
+					"borderStyle": "none",
+					"textAlign": "left"
 				},
 				"Input10": {
 					"type": "input",
-					"left": 669,
+					"left": 675,
 					"top": 39,
 					"width": 149,
 					"height": 55,
@@ -255,16 +269,18 @@
 				},
 				"changeString": {
 					"type": "input",
-					"left": 797,
-					"top": 53,
-					"width": 205,
+					"left": 837,
+					"top": 56,
+					"width": 159,
 					"height": 26,
 					"fontSize": 18,
 					"borderStyle": "none",
 					"fill": "transparent",
 					"dataSource": "Form:C1466.priceStatusString",
 					"method": "ObjectMethods/changeString.4dm",
-					"textAlign": "right"
+					"textAlign": "right",
+					"borderRadius": 5,
+					"sizingX": "grow"
 				},
 				"WebArea": {
 					"type": "webArea",
@@ -290,10 +306,10 @@
 				},
 				"Text2": {
 					"type": "text",
-					"text": "We’ll preview loss thresholds based on your strike price.\r",
+					"text": "We’ll preview some stop loss thresholds based on your strike price.\r",
 					"top": 762,
 					"left": 51,
-					"width": 293,
+					"width": 354,
 					"height": 15
 				},
 				"Text4": {
@@ -322,20 +338,44 @@
 					"type": "input",
 					"left": 567,
 					"top": 715,
-					"width": 116,
+					"width": 171,
 					"height": 22,
 					"fontSize": 16,
 					"dataSource": "Form:C1466.resistanceText",
 					"method": "ObjectMethods/Input1.4dm",
 					"enterable": true,
 					"fontWeight": "bold",
-					"borderStyle": "none",
-					"fill": "#c0c0c0"
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"text": "5% Stop:",
+					"top": 797,
+					"left": 51,
+					"width": 84,
+					"height": 21,
+					"fontSize": 16,
+					"fontWeight": "bold"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "10% Stop:",
+					"top": 828,
+					"left": 51,
+					"width": 84,
+					"height": 21,
+					"fontSize": 16,
+					"fontWeight": "bold"
 				}
 			}
 		}
 	],
-	"geometryStamp": 1761,
+	"geometryStamp": 1833,
 	"editor": {
 		"groups": {
 			"Group": [

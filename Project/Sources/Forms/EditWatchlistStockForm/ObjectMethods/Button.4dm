@@ -2,11 +2,11 @@ Case of
 	: (Form event code:C388=On Clicked:K2:4)
 		
 		// Get form values
-		$strikePrice:=Form:C1466.strikePrice
-		$stopLossPrice:=Form:C1466.stopLossPrice
-		$bottomResistancePrice:=Form:C1466.bottomResistancePrice
-		$topResistancePrice:=Form:C1466.topResistancePrice
-		$ticker:=Form:C1466.Ticker  // Assuming you have this in your form
+		$strikePrice:=Form:C1466.WatchlistStock.strikePrice
+		$stopLossPrice:=Form:C1466.WatchlistStock.stopLossPrice
+		$bottomResistancePrice:=Form:C1466.WatchlistStock.botResistance
+		$topResistancePrice:=Form:C1466.WatchlistStock.topResistance
+		
 		
 		If ((Num:C11($strikePrice)>0) & (Num:C11($stopLossPrice)>0) & (Num:C11($topResistancePrice)>0) & (Num:C11($bottomResistancePrice)>0))
 			
@@ -25,7 +25,8 @@ Case of
 			ACCEPT:C269
 			
 			// Inform user
-			ALERT:C41("Stock successfully added to your watchlist.")
+			CONFIRM:C162("Are you sure you want to edit this watchlist item?")
+			
 			
 			// Close form after user clicks OK
 			CLOSE WINDOW:C154()

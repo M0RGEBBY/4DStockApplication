@@ -35,10 +35,11 @@ Case of
 			Form:C1466.priceDelta:="$"+String:C10(Trunc:C95($finnhubRequest.response.body.d; 2); "##0.00")
 			Form:C1466.pricePercentage:=Trunc:C95($finnhubRequest.response.body.dp; 2)
 			Form:C1466.priceStatusString:=String:C10(Form:C1466.priceDelta)+" | "+String:C10(Form:C1466.pricePercentage; "###0.00")+"% Today"
+			
 			If ($finnhubRequest.response.body.d<=0)
-				OBJECT SET RGB COLORS:C628(*; "changeString"; "red")
+				OBJECT SET RGB COLORS:C628(*; "changeString"; "rgb(255, 0, 0)"; "rgb(255, 200, 200)")
 			Else 
-				OBJECT SET RGB COLORS:C628(*; "changeString"; "green")
+				OBJECT SET RGB COLORS:C628(*; "changeString"; "rgb(0,128,0)"; "rgb(220,255,220)")
 			End if 
 		Else 
 			ALERT:C41("Request failed with status: "+String:C10($request.statusCode))
