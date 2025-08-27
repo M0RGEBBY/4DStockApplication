@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"lang":"en"}
 // Declare all variables
 var $apiKey : Text:="DcKD2DhLAXL3qgSVXVD9MXTYfA_yrupp"
 var $url : Text:="https://api.polygon.io/v3/reference/tickers?market=stocks&type=CS&limit=1000&apiKey="+$apiKey

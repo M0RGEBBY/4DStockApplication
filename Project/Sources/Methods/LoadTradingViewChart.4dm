@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"lang":"en"}
 C_TEXT:C284($ticker; $prefix; $micCode; $queryFullName; $waName)
 
 $ticker:=String:C10($1)

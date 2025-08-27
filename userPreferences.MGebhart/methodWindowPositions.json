@@ -12,9 +12,15 @@
 		"height": 913
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
+<<<<<<< Updated upstream
 		"left": 0,
 		"top": 78,
 		"width": 1920,
+=======
+		"left": 319,
+		"top": 148,
+		"width": 965,
+>>>>>>> Stashed changes
 		"height": 931
 	},
 	"Sources/Methods/populateStockTable.4dm": {
@@ -190,5 +196,116 @@
 		"top": 306,
 		"width": 1902,
 		"height": 913
+<<<<<<< Updated upstream
+=======
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Button.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1518,
+		"height": 793
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/LB_WatchlistStocks.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
+		"left": -178,
+		"top": 393,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Ticker.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Methods/CalculatePercentageFromStrike.4dm": {
+		"left": 374,
+		"top": 210,
+		"width": 1164,
+		"height": 777
+	},
+	"Sources/Methods/PopulateWatchlist.4dm": {
+		"left": 491,
+		"top": 352,
+		"width": 1316,
+		"height": 748
+	},
+	"Sources/Methods/GetCurrentPrice.4dm": {
+		"left": 148,
+		"top": 196,
+		"width": 1316,
+		"height": 748
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/removeButton1.4dm": {
+		"left": 315,
+		"top": 159,
+		"width": 1238,
+		"height": 890
+	},
+	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
+		"left": 62,
+		"top": 88,
+		"width": 965,
+		"height": 913
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/changeString.4dm": {
+		"left": 315,
+		"top": 159,
+		"width": 1238,
+		"height": 890
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input6.4dm": {
+		"left": 315,
+		"top": 159,
+		"width": 1238,
+		"height": 890
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input7.4dm": {
+		"left": 315,
+		"top": 159,
+		"width": 1238,
+		"height": 890
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input8.4dm": {
+		"left": 315,
+		"top": 159,
+		"width": 1238,
+		"height": 890
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input4.4dm": {
+		"left": 218,
+		"top": 251,
+		"width": 965,
+		"height": 400
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
+		"left": 51,
+		"top": 109,
+		"width": 1150,
+		"height": 406
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm": {
+		"left": 58,
+		"top": 119,
+		"width": 1269,
+		"height": 913
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input1.4dm": {
+		"left": 287,
+		"top": 210,
+		"width": 1181,
+		"height": 700
+	},
+	"Sources/Methods/Test.4dm": {
+		"left": 57,
+		"top": 144,
+		"width": 1390,
+		"height": 913
+>>>>>>> Stashed changes
 	}
 }

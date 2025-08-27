@@ -9,10 +9,25 @@
 			}
 		},
 		{
+<<<<<<< Updated upstream
 			"type": "explorer"
 		},
 		{
 			"type": "structure"
+=======
+			"type": "method",
+			"id": 2147483630,
+			"codeDescriptor": {
+				"type": 3,
+				"formName": "EditWatchlistStockForm",
+				"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/method.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 225,
+			"formName": "HomeForm"
+>>>>>>> Stashed changes
 		}
 	]
 }

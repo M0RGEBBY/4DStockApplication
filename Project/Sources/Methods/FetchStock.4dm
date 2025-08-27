@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"lang":"en"}
 // Prepare API info
 var $ticker : Text:="AAPL"
 var $apiKey : Text:="d23pcnpr01qv4g01lod0d23pcnpr01qv4g01lodg"
