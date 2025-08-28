@@ -1,37 +1,67 @@
 {
 	"methods": {
 		"CalculatePercentageFromStrike": {
-			"timeStamp": "2025-08-25T18:26:11Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"calculateStopLossTarget": {
-			"timeStamp": "2025-08-19T19:32:04Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"FetchStock": {
-			"timeStamp": "2025-07-30T19:00:37Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"formController": {
-			"timeStamp": "2025-08-04T17:46:11Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"GetCompanyLogo": {
-			"timeStamp": "2025-08-19T15:27:53Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"GetCurrentPrice": {
-			"timeStamp": "2025-08-25T18:24:33Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"LoadTradingViewChart": {
-			"timeStamp": "2025-08-21T12:11:27Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"populateStockTable": {
-			"timeStamp": "2025-08-14T14:40:41Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"PopulateWatchlist": {
-			"timeStamp": "2025-08-25T20:33:24Z"
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
+		},
+		"Test": {
+			"timeStamp": "2025-08-27T14:54:11Z",
+			"attributes": {
+				"lang": "en"
+			}
 		},
 		"(forceTwoDecimalPlaces)": {
 			"timeStamp": "2025-08-12T20:16:04Z"
-		},
-		"Test": {
-			"timeStamp": "2025-08-27T14:33:23Z"
 		}
 	}
 }

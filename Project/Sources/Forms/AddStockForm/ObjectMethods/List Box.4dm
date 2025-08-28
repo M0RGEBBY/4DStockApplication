@@ -1,4 +1,4 @@
 Case of 
-	: (Form event code:C388=On Clicked:K2:4)
-		OBJECT SET ENABLED:C1123(*; "nextButton"; Form:C1466.selectedStock#Null:C1517)
+	: (Form event code=On Clicked)
+		OBJECT SET ENABLED(*; "nextButton"; Form.selectedStock#Null)
 End case 

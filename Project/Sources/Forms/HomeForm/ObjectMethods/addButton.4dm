@@ -1,14 +1,14 @@
 Case of 
-	: (Form event code:C388=On Clicked:K2:4)
+	: (Form event code=On Clicked)
 		// Open popup and store its reference in the Form object
-		Ref:=Open form window:C675("AddStockForm")
+		Ref:=Open form window("AddStockForm")
 		// Pass Form along so popup forms can access the window reference
-		DIALOG:C40("AddStockForm")
+		DIALOG("AddStockForm")
 		
 		$watchlist:=PopulateWatchlist
 		
 		// Assign to form
-		Form:C1466.watchlistStocks:=$watchlist
-		Form:C1466.watchlistStocks:=Form:C1466.watchlistStocks
+		Form.watchlistStocks:=$watchlist
+		Form.watchlistStocks:=Form.watchlistStocks
 		
 End case 

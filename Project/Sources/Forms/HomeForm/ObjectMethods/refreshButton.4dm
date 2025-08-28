@@ -1,9 +1,9 @@
 Case of 
-	: (Form event code:C388=On Clicked:K2:4)
+	: (Form event code=On Clicked)
 		
 		$watchlist:=PopulateWatchlist()
 		
 		// Assign to form
-		Form:C1466.watchlistStocks:=$watchlist
-		Form:C1466.watchlistStocks:=Form:C1466.watchlistStocks
+		Form.watchlistStocks:=$watchlist
+		Form.watchlistStocks:=Form.watchlistStocks
 End case 

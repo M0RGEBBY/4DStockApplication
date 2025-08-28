@@ -1,10 +1,10 @@
 Case of 
 		
-	: (Form event code:C388=On Load:K2:1)
+	: (Form event code=On Load)
 		//=-=-=-=-=-=- Declare Variables -=-=-=-=-=-=- 
-		$ticker:=Form:C1466.WatchlistStock.ticker
-		$companyName:=Form:C1466.WatchlistStock.companyName
-		$exchange:=Form:C1466.WatchlistStock.exchange
+		$ticker:=Form.WatchlistStock.ticker
+		$companyName:=Form.WatchlistStock.companyName
+		$exchange:=Form.WatchlistStock.exchange
 		var $finnhubApiKey : Text:="d23pcnpr01qv4g01lod0d23pcnpr01qv4g01lodg"
 		var $finnhubQuoteUrl : Text:="https://finnhub.io/api/v1/quote?symbol="+$ticker+"&token="+$finnhubApiKey
 		var $timePeriod : Text:="20"
@@ -13,44 +13,44 @@ Case of
 		
 		
 		//Set default values for fields on the form
-		Form:C1466.strikePriceText:="$"+String:C10(Form:C1466.WatchlistStock.strikePrice; "#,##0.00")
+		Form.strikePriceText:="$"+String(Form.WatchlistStock.strikePrice; "#,##0.00")
 		
-		Form:C1466.stopLossText:="$"+String:C10(Form:C1466.WatchlistStock.stopLossPrice; "#,##0.00")
-		Form:C1466.resistanceText:="$"+String:C10(Form:C1466.WatchlistStock.topResistance; "#,##0.00")
-		Form:C1466.supportText:="$"+String:C10(Form:C1466.WatchlistStock.botResistance; "#,##0.00")
+		Form.stopLossText:="$"+String(Form.WatchlistStock.stopLossPrice; "#,##0.00")
+		Form.resistanceText:="$"+String(Form.WatchlistStock.topResistance; "#,##0.00")
+		Form.supportText:="$"+String(Form.WatchlistStock.botResistance; "#,##0.00")
 		//calculate 5% loss from price target
-		Form:C1466.fivePercentStop:="$"+String:C10(calculateStopLossTarget(Form:C1466.WatchlistStock.strikePrice; 0.05); "#,##0.00")
+		Form.fivePercentStop:="$"+String(calculateStopLossTarget(Form.WatchlistStock.strikePrice; 0.05); "#,##0.00")
 		
 		//calculate 10% loss from price target
-		Form:C1466.tenPercentStop:="$"+String:C10(calculateStopLossTarget(Form:C1466.WatchlistStock.strikePrice; 0.1); "#,##0.00")
+		Form.tenPercentStop:="$"+String(calculateStopLossTarget(Form.WatchlistStock.strikePrice; 0.1); "#,##0.00")
 		
 		//--------------- finnhub API Call (grabs quote information)
-		var $finnhubRequest : 4D:C1709.HTTPRequest
-		$finnhubRequest:=4D:C1709.HTTPRequest.new($finnhubQuoteUrl)
+		var $finnhubRequest : 4D.HTTPRequest
+		$finnhubRequest:=4D.HTTPRequest.new($finnhubQuoteUrl)
 		$finnhubRequest.wait()
 		
 		If ($finnhubRequest.response.status=200)
-			Form:C1466.currentPrice:="$"+String:C10(Trunc:C95($finnhubRequest.response.body.c; 2); "##0.00")
-			Form:C1466.previousClosePrice:="$"+String:C10(Trunc:C95($finnhubRequest.response.body.pc; 2); "##0.00")
-			Form:C1466.priceDelta:="$"+String:C10(Trunc:C95($finnhubRequest.response.body.d; 2); "##0.00")
-			Form:C1466.pricePercentage:=Trunc:C95($finnhubRequest.response.body.dp; 2)
-			Form:C1466.priceStatusString:=String:C10(Form:C1466.priceDelta)+" | "+String:C10(Form:C1466.pricePercentage; "###0.00")+"% Today"
+			Form.currentPrice:="$"+String(Trunc($finnhubRequest.response.body.c; 2); "##0.00")
+			Form.previousClosePrice:="$"+String(Trunc($finnhubRequest.response.body.pc; 2); "##0.00")
+			Form.priceDelta:="$"+String(Trunc($finnhubRequest.response.body.d; 2); "##0.00")
+			Form.pricePercentage:=Trunc($finnhubRequest.response.body.dp; 2)
+			Form.priceStatusString:=String(Form.priceDelta)+" | "+String(Form.pricePercentage; "###0.00")+"% Today"
 			
 			If ($finnhubRequest.response.body.d<=0)
-				OBJECT SET RGB COLORS:C628(*; "changeString"; "rgb(255, 0, 0)"; "rgb(255, 200, 200)")
+				OBJECT SET RGB COLORS(*; "changeString"; "rgb(255, 0, 0)"; "rgb(255, 200, 200)")
 			Else 
-				OBJECT SET RGB COLORS:C628(*; "changeString"; "rgb(0,128,0)"; "rgb(220,255,220)")
+				OBJECT SET RGB COLORS(*; "changeString"; "rgb(0,128,0)"; "rgb(220,255,220)")
 			End if 
 		Else 
-			ALERT:C41("Request failed with the status: "+String:C10($request.statusCode))
+			ALERT("Request failed with the status: "+String($request.statusCode))
 		End if 
 		
 		
 		
 		
 		
-	: (Form event code:C388=On Close Box:K2:21)
-		CANCEL:C270
+	: (Form event code=On Close Box)
+		CANCEL
 		
 		
 End case 

@@ -18,13 +18,13 @@
 		"stamp": "2025-07-30T17:38:04.679Z"
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
-		"startSelection": 22,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 3,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T18:19:29.211Z"
+		"stamp": "2025-08-27T14:54:11.222Z"
 	},
 	"Sources/Methods/populateStockTable.4dm": {
 		"startSelection": 4,
@@ -364,13 +364,13 @@
 		"stamp": "2025-08-26T17:21:31.721Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
-		"startSelection": 31,
-		"endSelection": 31,
-		"firstSelectedLine": 44,
-		"lastSelectedLine": 44,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-27T14:27:59.366Z"
+		"stamp": "2025-08-27T14:48:21.232Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/changeString.4dm": {
 		"startSelection": 0,
@@ -445,12 +445,12 @@
 		"stamp": "2025-08-27T13:31:41.921Z"
 	},
 	"Sources/Methods/Test.4dm": {
-		"startSelection": 29,
-		"endSelection": 29,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-27T14:33:36.870Z"
+		"stamp": "2025-08-27T14:53:24.151Z"
 	}
 }

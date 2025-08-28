@@ -1,9 +1,9 @@
-//%attributes = {}
-C_TEXT:C284($ticker; $prefix; $micCode; $queryFullName; $waName)
+//%attributes = {"lang":"en"}
+C_TEXT($ticker; $prefix; $micCode; $queryFullName; $waName)
 
-$ticker:=String:C10($1)
-$micCode:=String:C10($2)
-$waName:=String:C10($3)
+$ticker:=String($1)
+$micCode:=String($2)
+$waName:=String($3)
 
 // Build exchange prefix
 Case of 
@@ -52,8 +52,8 @@ $html:="<div class='tradingview-widget-container'>"+\
 "});</script>"+\
 "</div>"
 
-$filePath:=String:C10(Temporary folder:C486)+"tradingViewChart.html"
-TEXT TO DOCUMENT:C1237($filePath; $html)
+$filePath:=String(Temporary folder)+"tradingViewChart.html"
+TEXT TO DOCUMENT($filePath; $html)
 
-WA OPEN URL:C1020(*; $waName; $filePath)
+WA OPEN URL(*; $waName; $filePath)
 //Test Comment

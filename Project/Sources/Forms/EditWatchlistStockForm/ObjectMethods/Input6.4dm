@@ -1,7 +1,7 @@
 Case of 
-	: (Form event code:C388=On Data Change:K2:15)
+	: (Form event code=On Data Change)
 		
-		Form:C1466.WatchlistStock.botResistance:=Num:C11(Form:C1466.supportText)
-		Form:C1466.supportText:="$"+String:C10(Form:C1466.WatchlistStock.botResistance; "###,##0.00")
+		Form.WatchlistStock.botResistance:=Num(Form.supportText)
+		Form.supportText:="$"+String(Form.WatchlistStock.botResistance; "###,##0.00")
 		
 End case 

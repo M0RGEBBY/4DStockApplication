@@ -1,3 +1,3 @@
 Case of 
-	: (Form event code:C388=On Data Change:K2:15)
+	: (Form event code=On Data Change)
 End case 

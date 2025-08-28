@@ -12,8 +12,8 @@
 		"height": 913
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/addButton.4dm": {
-		"left": 621,
-		"top": 151,
+		"left": 319,
+		"top": 148,
 		"width": 965,
 		"height": 931
 	},
@@ -228,8 +228,8 @@
 		"height": 748
 	},
 	"Sources/Methods/GetCurrentPrice.4dm": {
-		"left": 446,
-		"top": 217,
+		"left": 148,
+		"top": 196,
 		"width": 1316,
 		"height": 748
 	},
@@ -294,9 +294,9 @@
 		"height": 700
 	},
 	"Sources/Methods/Test.4dm": {
-		"left": 58,
-		"top": 119,
-		"width": 1269,
+		"left": 57,
+		"top": 144,
+		"width": 1390,
 		"height": 913
 	}
 }

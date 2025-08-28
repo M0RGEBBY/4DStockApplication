@@ -72,7 +72,8 @@
 							"header": {
 								"text": "Ticker",
 								"name": "Header1",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Ticker",
 							"footer": {
@@ -86,7 +87,8 @@
 							"header": {
 								"name": "CompanyName",
 								"text": "CompanyName",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Column1",
 							"dataSource": "This:C1470.CompanyName",
@@ -99,7 +101,8 @@
 							"header": {
 								"name": "Header5",
 								"text": "Current Price",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Column6",
 							"dataSource": "\"$\"+String:C10(This:C1470.currentPrice; \"###0.00\")",
@@ -111,7 +114,8 @@
 							"header": {
 								"name": "Header2",
 								"text": "Resistance Level",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Column2",
 							"footer": {
@@ -123,7 +127,8 @@
 							"header": {
 								"name": "Header3",
 								"text": "Support Level",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Column3",
 							"dataSource": "\"$\"+String:C10(This:C1470.botResistance; \"###0.00\")",
@@ -135,7 +140,8 @@
 							"header": {
 								"name": "Header4",
 								"text": "Strike Price",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Column4",
 							"dataSource": "\"$\"+String:C10(This:C1470.strikePrice; \"###0.00\")",
@@ -147,7 +153,8 @@
 							"header": {
 								"name": "Percentage From Strike",
 								"text": "% From Strike",
-								"textAlign": "left"
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
 							"name": "Column5",
 							"width": 158,
