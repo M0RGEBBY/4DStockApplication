@@ -78,8 +78,8 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"left": 16,
-		"top": 124,
+		"left": 188,
+		"top": 114,
 		"width": 1536,
 		"height": 941
 	},
@@ -304,5 +304,17 @@
 		"top": 109,
 		"width": 1269,
 		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/removeButton.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1917,
+		"height": 928
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/editButton.4dm": {
+		"left": 607,
+		"top": 399,
+		"width": 1238,
+		"height": 890
 	}
 }

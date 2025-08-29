@@ -117,13 +117,13 @@
 		"stamp": "2025-08-12T14:52:43.409Z"
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"startSelection": 17,
-		"endSelection": 17,
-		"firstSelectedLine": 6,
-		"lastSelectedLine": 6,
+		"startSelection": 69,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 11,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-27T14:54:11.198Z"
+		"stamp": "2025-08-29T13:52:55.406Z"
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"startSelection": 71,
@@ -459,5 +459,23 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-27T14:54:11.212Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/removeButton.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-29T14:21:40.049Z"
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/editButton.4dm": {
+		"startSelection": 42,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-29T13:24:20.477Z"
 	}
 }

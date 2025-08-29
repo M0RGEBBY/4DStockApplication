@@ -8,3 +8,6 @@ Case of
 		Form.watchlistStocks:=$watchlist
 		
 End case 
+
+OBJECT SET ENABLED(*; "removeButton"; Form.selectedWatchlistStock#Null)
+OBJECT SET ENABLED(*; "editButton"; Form.selectedWatchlistStock#Null)

@@ -129,11 +129,15 @@
 				]
 			},
 			{
-				"path": "[projectForm]/HomeForm/removeButton1",
+				"path": "[projectForm]/HomeForm/removeButton",
 				"watches": [
 					{
 						"type": 66,
 						"formula": "Form:C1466.selectedWatchlistStock"
+					},
+					{
+						"type": 66,
+						"formula": "$index"
 					}
 				]
 			},

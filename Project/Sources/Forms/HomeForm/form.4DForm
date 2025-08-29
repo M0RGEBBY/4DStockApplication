@@ -13,20 +13,21 @@
 	"bottomMargin": 20,
 	"events": [
 		"onLoad",
-		"onPageChange",
 		"onValidate",
 		"onClick",
-		"onDoubleClick",
 		"onOutsideCall",
-		"onBeginDragOver",
-		"onDragOver",
+		"onDoubleClick",
 		"onDrop",
-		"onAfterKeystroke",
 		"onMenuSelect",
 		"onPluginArea",
-		"onAfterEdit",
+		"onDataChange",
+		"onDragOver",
 		"onTimer",
-		"onBoundVariableChange"
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
 	],
 	"windowTitle": "window title",
 	"destination": "detailScreen",
@@ -187,9 +188,10 @@
 					"height": 42,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/removeButton.4dm"
 				},
-				"removeButton1": {
+				"editButton": {
 					"type": "button",
 					"text": "Edit",
 					"top": 164,
@@ -199,7 +201,7 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/removeButton1.4dm"
+					"method": "ObjectMethods/editButton.4dm"
 				},
 				"watchlistHeader": {
 					"type": "input",
@@ -220,7 +222,7 @@
 			}
 		}
 	],
-	"geometryStamp": 61,
+	"geometryStamp": 62,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
