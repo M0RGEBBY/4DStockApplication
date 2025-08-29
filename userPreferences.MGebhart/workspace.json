@@ -1,18 +1,28 @@
 {
 	"editors": [
 		{
+			"type": "method",
+			"id": 2147483624,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "HomeForm",
+				"objectName": "removeButton1",
+				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/removeButton1.4dm"
+			}
+		},
+		{
 			"type": "form",
-			"id": 331,
+			"id": 225,
 			"formName": "HomeForm"
 		},
 		{
 			"type": "method",
-			"id": 2147483618,
+			"id": 2147483625,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "HomeForm",
-				"objectName": "addButton",
-				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/addButton.4dm"
+				"objectName": "refreshButton",
+				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/refreshButton.4dm"
 			}
 		},
 		{

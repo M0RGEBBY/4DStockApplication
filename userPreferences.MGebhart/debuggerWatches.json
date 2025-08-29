@@ -37,6 +37,20 @@
 				]
 			},
 			{
+				"path": "[projectForm]/EditWatchlistStockForm/Button",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.WatchlistStock",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.WatchlistStock.UUID"
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/EditWatchlistStockForm/Input4",
 				"watches": [
 					{

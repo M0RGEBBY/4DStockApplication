@@ -11,6 +11,7 @@ For each ($watchlistStock; ds.WatchlistStock.all().toCollection())
 	$obj.topResistance:=$watchlistStock.TopResistance
 	$obj.botResistance:=$watchlistStock.BotResistance
 	$obj.stopLossPrice:=$watchlistStock.StopLossPrice
+	$obj.watchlistUUID:=$watchlistStock.UUID
 	
 	$stockEntity:=ds.Stock.query("UUID =:1"; $watchlistStock.stockUUID).first()
 	

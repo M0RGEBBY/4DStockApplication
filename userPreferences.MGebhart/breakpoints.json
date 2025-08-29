@@ -1,11 +1,1 @@
-[
-	{
-		"line": 9,
-		"method": {
-			"type": 2,
-			"formName": "EditWatchlistStockForm",
-			"objectName": "Button",
-			"methodPath": "/SOURCES/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm"
-		}
-	}
-]
+[]

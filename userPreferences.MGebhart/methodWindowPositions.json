@@ -19,9 +19,9 @@
 	},
 	"Sources/Methods/populateStockTable.4dm": {
 		"left": 0,
-		"top": 109,
-		"width": 1902,
-		"height": 913
+		"top": 78,
+		"width": 1917,
+		"height": 928
 	},
 	"Sources/Classes/Stock.4dm": {
 		"left": 18,
@@ -204,8 +204,8 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
-		"left": -178,
-		"top": 393,
+		"left": 88,
+		"top": 381,
 		"width": 1902,
 		"height": 913
 	},
@@ -222,8 +222,8 @@
 		"height": 777
 	},
 	"Sources/Methods/PopulateWatchlist.4dm": {
-		"left": 491,
-		"top": 352,
+		"left": 149,
+		"top": 127,
 		"width": 1316,
 		"height": 748
 	},
@@ -240,8 +240,8 @@
 		"height": 890
 	},
 	"Sources/Forms/EditWatchlistStockForm/method.4dm": {
-		"left": 62,
-		"top": 88,
+		"left": 20,
+		"top": 109,
 		"width": 965,
 		"height": 913
 	},
@@ -282,10 +282,10 @@
 		"height": 406
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm": {
-		"left": 58,
-		"top": 119,
-		"width": 1269,
-		"height": 913
+		"left": 0,
+		"top": 78,
+		"width": 1917,
+		"height": 928
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input1.4dm": {
 		"left": 287,
@@ -297,6 +297,12 @@
 		"left": 57,
 		"top": 144,
 		"width": 1390,
+		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Form.LB_WatchlistStocks.4dm": {
+		"left": 496,
+		"top": 109,
+		"width": 1269,
 		"height": 913
 	}
 }

@@ -10,23 +10,20 @@ Case of
 		
 		If ((Num($strikePrice)>0) & (Num($stopLossPrice)>0) & (Num($topResistancePrice)>0) & (Num($bottomResistancePrice)>0))
 			
+			$watchlistStockEntity:=ds.WatchlistStock.query("UUID =:1"; Form.WatchlistStock.watchlistUUID).first()
 			
-			// Lookup the stock by ticker
-			$stock:=ds.Stock.query("Ticker=:1"; $ticker)
+			$watchlistStockEntity.StrikePrice:=$strikePrice
+			$watchlistStockEntity.TopResistance:=$topResistancePrice
+			$watchlistStockEntity.BotResistance:=$bottomResistancePrice
+			$watchlistStockEntity.StopLossPrice:=$stopLossPrice
 			
-			// Create new WatchlistStock record
-			$watchlistStock:=ds.WatchlistStock.new()
-			$watchlistStock.StrikePrice:=$strikePrice
-			$watchlistStock.StopLossPrice:=$stopLossPrice
-			$watchlistStock.TopResistance:=$topResistancePrice
-			$watchlistStock.BotResistance:=$bottomResistancePrice
-			$watchlistStock.stockUUID:=$stock[0].UUID
-			$watchlistStock.save()
-			ACCEPT
+			$watchlistStockEntity.save()
 			
 			// Inform user
 			CONFIRM("Are you sure you want to edit this watchlist item?")
-			
+			If (OK=1)
+				ACCEPT
+			End if 
 			
 			// Close form after user clicks OK
 			CLOSE WINDOW()
