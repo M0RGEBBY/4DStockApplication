@@ -1,0 +1,237 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"refreshButton": {
+					"type": "button",
+					"text": "Refresh Watchlist",
+					"top": 250,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"class": "btn",
+					"fontWeight": "normal",
+					"defaultButton": false,
+					"method": "ObjectMethods/refreshButton.4dm"
+				},
+				"Form.LB_WatchlistStocks": {
+					"type": "listbox",
+					"left": 35,
+					"top": 76,
+					"width": 853,
+					"height": 321,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.watchlistStocks",
+					"method": "ObjectMethods/Form.LB_WatchlistStocks.4dm",
+					"currentItemSource": "Form:C1466.selectedWatchlistStock",
+					"columns": [
+						{
+							"header": {
+								"text": "Ticker",
+								"name": "Header1",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Ticker",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.ticker",
+							"method": "ObjectMethods/Ticker.4dm",
+							"width": 124
+						},
+						{
+							"header": {
+								"name": "CompanyName",
+								"text": "CompanyName",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column1",
+							"dataSource": "This:C1470.CompanyName",
+							"width": 125,
+							"footer": {
+								"name": "Footer2"
+							}
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Current Price",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column6",
+							"dataSource": "\"$\"+String:C10(This:C1470.currentPrice; \"###0.00\")",
+							"footer": {
+								"name": "Footer7"
+							}
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Resistance Level",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "\"$\"+String:C10(This:C1470.topResistance; \"###0.00\")"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Support Level",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column3",
+							"dataSource": "\"$\"+String:C10(This:C1470.botResistance; \"###0.00\")",
+							"footer": {
+								"name": "Footer4"
+							}
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Strike Price",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column4",
+							"dataSource": "\"$\"+String:C10(This:C1470.strikePrice; \"###0.00\")",
+							"footer": {
+								"name": "Footer5"
+							}
+						},
+						{
+							"header": {
+								"name": "Percentage From Strike",
+								"text": "% From Strike",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column5",
+							"width": 158,
+							"dataSource": "String:C10(This:C1470.percentageFromStrike; \"###0.00\")+\"%\"",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSourceTypeHint": "text"
+						}
+					]
+				},
+				"addButton": {
+					"type": "button",
+					"text": "Add New Ticker",
+					"top": 76,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/addButton.4dm"
+				},
+				"removeButton": {
+					"type": "button",
+					"text": "Remove Selected Ticker",
+					"top": 194,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/removeButton.4dm"
+				},
+				"editButton": {
+					"type": "button",
+					"text": "Edit",
+					"top": 138,
+					"left": 923,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/editButton.4dm"
+				},
+				"watchlistHeader": {
+					"type": "input",
+					"left": 35,
+					"top": 30,
+					"width": 853,
+					"height": 32,
+					"enterable": false,
+					"fontWeight": "bold",
+					"fontSize": 30,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"dataSource": "\"Watchlist\"",
+					"textAlign": "center"
+				}
+			}
+		},
+		null
+	],
+	"geometryStamp": 80,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm",
+	"colorScheme": "dark",
+	"shared": true
+}

@@ -1,1 +1,10 @@
-[]
+[
+	{
+		"line": 4,
+		"method": {
+			"type": 3,
+			"formName": "Navigation",
+			"methodPath": "/SOURCES/Forms/Navigation/method.4dm"
+		}
+	}
+]

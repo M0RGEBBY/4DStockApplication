@@ -66,8 +66,8 @@
 		"height": 490
 	},
 	"Sources/Methods/formController.4dm": {
-		"left": 354,
-		"top": 190,
+		"left": 543,
+		"top": 141,
 		"width": 965,
 		"height": 400
 	},
@@ -78,10 +78,10 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/method.4dm": {
-		"left": 188,
-		"top": 114,
-		"width": 1536,
-		"height": 941
+		"left": -183,
+		"top": 109,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"left": 0,
@@ -204,8 +204,8 @@
 		"height": 931
 	},
 	"Sources/Forms/HomeForm/ObjectMethods/refreshButton.4dm": {
-		"left": 88,
-		"top": 381,
+		"left": -296,
+		"top": 337,
 		"width": 1902,
 		"height": 913
 	},
@@ -316,5 +316,59 @@
 		"top": 399,
 		"width": 1238,
 		"height": 890
+	},
+	"Sources/Forms/Navigation/method.4dm": {
+		"left": -207,
+		"top": 535,
+		"width": 1922,
+		"height": 928
+	},
+	"Sources/Forms/Navigation/ObjectMethods/Column2.4dm": {
+		"left": -66,
+		"top": 134,
+		"width": 1902,
+		"height": 913
+	},
+	"Sources/Forms/HomeForm/ObjectMethods/Subform.4dm": {
+		"left": 242,
+		"top": 177,
+		"width": 1536,
+		"height": 971
+	},
+	"Sources/Forms/MasterForm/ObjectMethods/Subform.4dm": {
+		"left": -369,
+		"top": 369,
+		"width": 1917,
+		"height": 928
+	},
+	"Sources/Forms/MasterForm/method.4dm": {
+		"left": 141,
+		"top": 361,
+		"width": 1917,
+		"height": 928
+	},
+	"Sources/Forms/Navigation/ObjectMethods/List Box.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1922,
+		"height": 928
+	},
+	"Sources/Forms/MasterForm/ObjectMethods/Subform1.4dm": {
+		"left": 306,
+		"top": 217,
+		"width": 1536,
+		"height": 971
+	},
+	"Sources/Forms/MasterForm/ObjectMethods/List Box.4dm": {
+		"left": 11,
+		"top": 275,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/WatchlistForm/method.4dm": {
+		"left": 506,
+		"top": 462,
+		"width": 1920,
+		"height": 931
 	}
 }

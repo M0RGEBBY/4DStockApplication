@@ -1,34 +1,34 @@
 {
 	"editors": [
 		{
-			"type": "structure"
-		},
-		{
 			"type": "form",
-			"id": 659,
-			"formName": "HomeForm"
-		},
-		{
-			"type": "method",
-			"id": 2147483625,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "HomeForm",
-				"objectName": "refreshButton",
-				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/refreshButton.4dm"
-			}
+			"id": 457,
+			"formName": "WatchlistForm"
 		},
 		{
 			"type": "explorer"
 		},
 		{
+			"type": "form",
+			"id": 454,
+			"formName": "MasterForm"
+		},
+		{
 			"type": "method",
-			"id": 2147483620,
+			"id": 2147483631,
 			"codeDescriptor": {
-				"type": 2,
-				"formName": "HomeForm",
-				"objectName": "removeButton1",
-				"methodPath": "/SOURCES/Forms/HomeForm/ObjectMethods/editButton.4dm"
+				"type": 3,
+				"formName": "WatchlistForm",
+				"methodPath": "/SOURCES/Forms/WatchlistForm/method.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483623,
+			"codeDescriptor": {
+				"type": 3,
+				"formName": "MasterForm",
+				"methodPath": "/SOURCES/Forms/MasterForm/method.4dm"
 			}
 		}
 	]

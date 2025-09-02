@@ -1,0 +1,121 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 1,
+					"top": 2,
+					"width": 343,
+					"height": 600,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"dataSource": "Form:C1466.navigationLinks",
+					"listboxType": "collection",
+					"headerHeight": "1em",
+					"showHeaders": false,
+					"borderStyle": "none",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"selectionMode": "single",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"method": "ObjectMethods/List Box.4dm",
+					"currentItemSource": "Form:C1466.selectedNavItem",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.icon",
+							"rowHeightAuto": true,
+							"maxWidth": 75,
+							"width": 75,
+							"minWidth": 75,
+							"horizontalPadding": 10
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Header2"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"width": 300,
+							"dataSource": "This:C1470.label",
+							"rowHeightAuto": true,
+							"fontSize": 18,
+							"textAlign": "left",
+							"verticalAlign": "middle",
+							"horizontalPadding": 10
+						}
+					]
+				},
+				"Subform": {
+					"type": "subform",
+					"left": 354,
+					"top": 17,
+					"width": 1139,
+					"height": 585,
+					"detailForm": "WatchlistForm",
+					"method": "ObjectMethods/Subform.4dm",
+					"dataSource": ""
+				}
+			}
+		}
+	],
+	"geometryStamp": 39,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

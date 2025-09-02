@@ -85,59 +85,53 @@
 				]
 			},
 			{
-				"path": "[projectForm]/HomeForm/{formMethod}",
+				"path": "[projectForm]/MasterForm/{formMethod}",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "Form:C1466.watchlistStocks",
-						"expanded": true
-					},
-					{
-						"type": 66,
-						"formula": "$watchlistStock.PercentageFromStrike"
-					},
-					{
-						"type": 66,
-						"formula": "String:C10($watchlistStock.PercentageFromStrike; \"###0.00\")+\"%\""
+						"formula": "Form:C1466.navigationLinks:=New collection:C1472"
 					}
 				]
 			},
 			{
-				"path": "[projectForm]/HomeForm/refreshButton",
+				"path": "[projectForm]/MasterForm/List Box",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "Form:C1466.LB_WatchlistStocks"
-					},
-					{
-						"type": 66,
-						"formula": "LB_WatchlistStocks"
-					},
-					{
-						"type": 66,
-						"formula": "obj.Ticker"
-					},
-					{
-						"type": 66,
-						"formula": "$stockEntity.Ticker"
-					},
-					{
-						"type": 66,
-						"formula": "$watchlist",
+						"formula": "Form:C1466.selectedNavItem",
 						"expanded": true
 					}
 				]
 			},
 			{
-				"path": "[projectForm]/HomeForm/removeButton",
+				"path": "[projectForm]/MasterForm/Subform",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "Form:C1466.selectedWatchlistStock"
+						"formula": "Form:C1466.navigationLinks",
+						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/Navigation/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$path"
 					},
 					{
 						"type": 66,
-						"formula": "$index"
+						"formula": "$test"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.navigationLinks",
+						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.navContext"
 					}
 				]
 			},
@@ -210,6 +204,15 @@
 					{
 						"type": 66,
 						"formula": "$bottomResistancePrice"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/WatchlistForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.watchlistStocks"
 					}
 				]
 			},

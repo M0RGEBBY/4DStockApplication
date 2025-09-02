@@ -8,13 +8,22 @@
 			"timeStamp": "2025-08-27T14:48:21Z",
 			"destination": "detailScreen"
 		},
-		"HomeForm": {
-			"timeStamp": "2025-08-29T13:39:05Z",
+		"MasterForm": {
+			"timeStamp": "2025-09-02T19:01:26Z",
+			"destination": "detailScreen"
+		},
+		"Navigation": {
+			"timeStamp": "2025-08-29T19:26:05Z",
 			"destination": "detailScreen"
 		},
 		"newStockInfoForm": {
 			"timeStamp": "2025-08-27T14:48:21Z",
 			"destination": "detailScreen"
+		},
+		"WatchlistForm": {
+			"timeStamp": "2025-09-02T19:12:25Z",
+			"destination": "detailScreen",
+			"shared": true
 		}
 	}
 }

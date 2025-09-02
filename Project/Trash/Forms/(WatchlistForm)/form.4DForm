@@ -40,9 +40,9 @@
 				"refreshButton": {
 					"type": "button",
 					"text": "Refresh Watchlist",
-					"top": 417,
-					"left": 35,
-					"width": 213,
+					"top": 250,
+					"left": 923,
+					"width": 187,
 					"height": 42,
 					"events": [
 						"onClick"
@@ -170,7 +170,7 @@
 				"addButton": {
 					"type": "button",
 					"text": "Add New Ticker",
-					"top": 108,
+					"top": 76,
 					"left": 923,
 					"width": 187,
 					"height": 42,
@@ -182,7 +182,7 @@
 				"removeButton": {
 					"type": "button",
 					"text": "Remove Selected Ticker",
-					"top": 299,
+					"top": 194,
 					"left": 923,
 					"width": 187,
 					"height": 42,
@@ -194,7 +194,7 @@
 				"editButton": {
 					"type": "button",
 					"text": "Edit",
-					"top": 164,
+					"top": 138,
 					"left": 923,
 					"width": 187,
 					"height": 42,
@@ -218,11 +218,19 @@
 					"textDecoration": "none",
 					"dataSource": "\"Watchlist\"",
 					"textAlign": "center"
+				},
+				"Tab Control": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 25,
+					"left": 45,
+					"width": 160,
+					"height": 301
 				}
 			}
 		}
 	],
-	"geometryStamp": 62,
+	"geometryStamp": 81,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
