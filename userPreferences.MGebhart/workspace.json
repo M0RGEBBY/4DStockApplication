@@ -1,35 +1,19 @@
 {
 	"editors": [
 		{
-			"type": "form",
-			"id": 457,
-			"formName": "WatchlistForm"
-		},
-		{
-			"type": "explorer"
-		},
-		{
-			"type": "form",
-			"id": 454,
-			"formName": "MasterForm"
-		},
-		{
 			"type": "method",
 			"id": 2147483631,
 			"codeDescriptor": {
-				"type": 3,
-				"formName": "WatchlistForm",
-				"methodPath": "/SOURCES/Forms/WatchlistForm/method.4dm"
+				"type": 2,
+				"formName": "MasterForm",
+				"objectName": "List Box",
+				"methodPath": "/SOURCES/Forms/MasterForm/ObjectMethods/List Box.4dm"
 			}
 		},
 		{
-			"type": "method",
-			"id": 2147483623,
-			"codeDescriptor": {
-				"type": 3,
-				"formName": "MasterForm",
-				"methodPath": "/SOURCES/Forms/MasterForm/method.4dm"
-			}
+			"type": "form",
+			"id": 873,
+			"formName": "MasterForm"
 		}
 	]
 }

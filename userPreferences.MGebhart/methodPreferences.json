@@ -99,13 +99,13 @@
 		"stamp": "2025-08-04T13:06:53.980Z"
 	},
 	"Sources/Methods/formController.4dm": {
-		"startSelection": 36,
-		"endSelection": 36,
+		"startSelection": 43,
+		"endSelection": 43,
 		"firstSelectedLine": 0,
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-02T14:25:50.345Z"
+		"stamp": "2025-09-02T20:23:24.341Z"
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
 		"startSelection": 2,
@@ -515,13 +515,13 @@
 		"stamp": "2025-09-02T19:02:29.283Z"
 	},
 	"Sources/Forms/MasterForm/method.4dm": {
-		"startSelection": 38,
-		"endSelection": 38,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-02T19:07:02.892Z"
+		"stamp": "2025-09-03T12:55:23.882Z"
 	},
 	"Sources/Forms/Navigation/ObjectMethods/List Box.4dm": {
 		"startSelection": 0,
@@ -542,21 +542,39 @@
 		"stamp": "2025-08-29T19:00:45.341Z"
 	},
 	"Sources/Forms/MasterForm/ObjectMethods/List Box.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
+		"startSelection": 56,
+		"endSelection": 56,
 		"firstSelectedLine": 4,
 		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-02T19:06:44.409Z"
+		"stamp": "2025-09-03T13:00:08.587Z"
 	},
 	"Sources/Forms/WatchlistForm/method.4dm": {
-		"startSelection": 9,
-		"endSelection": 9,
-		"firstSelectedLine": 9,
-		"lastSelectedLine": 9,
+		"startSelection": 32,
+		"endSelection": 32,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-02T19:10:01.627Z"
+		"stamp": "2025-09-02T20:16:44.579Z"
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/Form.LB_WatchlistStocks.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.212Z"
+	},
+	"Sources/Forms/testingSubforms/method.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-03T12:51:48.666Z"
 	}
 }

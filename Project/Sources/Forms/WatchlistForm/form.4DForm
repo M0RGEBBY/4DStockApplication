@@ -40,8 +40,8 @@
 				"refreshButton": {
 					"type": "button",
 					"text": "Refresh Watchlist",
-					"top": 250,
-					"left": 923,
+					"top": 355,
+					"left": 921,
 					"width": 187,
 					"height": 42,
 					"events": [
@@ -68,6 +68,8 @@
 					"dataSource": "Form:C1466.watchlistStocks",
 					"method": "ObjectMethods/Form.LB_WatchlistStocks.4dm",
 					"currentItemSource": "Form:C1466.selectedWatchlistStock",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
 					"columns": [
 						{
 							"header": {
@@ -171,7 +173,7 @@
 					"type": "button",
 					"text": "Add New Ticker",
 					"top": 76,
-					"left": 923,
+					"left": 921,
 					"width": 187,
 					"height": 42,
 					"events": [
@@ -182,8 +184,8 @@
 				"removeButton": {
 					"type": "button",
 					"text": "Remove Selected Ticker",
-					"top": 194,
-					"left": 923,
+					"top": 200,
+					"left": 921,
 					"width": 187,
 					"height": 42,
 					"events": [
@@ -195,7 +197,7 @@
 					"type": "button",
 					"text": "Edit",
 					"top": 138,
-					"left": 923,
+					"left": 921,
 					"width": 187,
 					"height": 42,
 					"events": [
@@ -206,7 +208,7 @@
 				"watchlistHeader": {
 					"type": "input",
 					"left": 35,
-					"top": 30,
+					"top": 15,
 					"width": 853,
 					"height": 32,
 					"enterable": false,
@@ -221,9 +223,24 @@
 				}
 			}
 		},
-		null
+		null,
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"text": "HOME",
+					"top": 85,
+					"left": 148,
+					"width": 678,
+					"height": 181,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
 	],
-	"geometryStamp": 80,
+	"geometryStamp": 107,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
@@ -233,5 +250,5 @@
 	},
 	"method": "method.4dm",
 	"colorScheme": "dark",
-	"shared": true
+	"shared": false
 }

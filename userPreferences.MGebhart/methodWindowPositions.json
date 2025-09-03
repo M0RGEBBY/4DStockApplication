@@ -336,16 +336,16 @@
 		"height": 971
 	},
 	"Sources/Forms/MasterForm/ObjectMethods/Subform.4dm": {
-		"left": -369,
-		"top": 369,
-		"width": 1917,
-		"height": 928
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/MasterForm/method.4dm": {
-		"left": 141,
-		"top": 361,
-		"width": 1917,
-		"height": 928
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/Navigation/ObjectMethods/List Box.4dm": {
 		"left": 0,
@@ -360,14 +360,26 @@
 		"height": 971
 	},
 	"Sources/Forms/MasterForm/ObjectMethods/List Box.4dm": {
-		"left": 11,
-		"top": 275,
+		"left": 435,
+		"top": 142,
 		"width": 1920,
 		"height": 931
 	},
 	"Sources/Forms/WatchlistForm/method.4dm": {
-		"left": 506,
-		"top": 462,
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/Form.LB_WatchlistStocks.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/testingSubforms/method.4dm": {
+		"left": 0,
+		"top": 78,
 		"width": 1920,
 		"height": 931
 	}

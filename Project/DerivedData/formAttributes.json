@@ -1,5 +1,9 @@
 {
 	"forms": {
+		"ActivePositionsForm": {
+			"timeStamp": "2025-09-03T12:58:57Z",
+			"destination": "detailScreen"
+		},
 		"AddStockForm": {
 			"timeStamp": "2025-08-11T18:37:48Z",
 			"destination": "detailScreen"
@@ -9,11 +13,7 @@
 			"destination": "detailScreen"
 		},
 		"MasterForm": {
-			"timeStamp": "2025-09-02T19:01:26Z",
-			"destination": "detailScreen"
-		},
-		"Navigation": {
-			"timeStamp": "2025-08-29T19:26:05Z",
+			"timeStamp": "2025-09-03T12:52:55Z",
 			"destination": "detailScreen"
 		},
 		"newStockInfoForm": {
@@ -21,9 +21,8 @@
 			"destination": "detailScreen"
 		},
 		"WatchlistForm": {
-			"timeStamp": "2025-09-02T19:12:25Z",
-			"destination": "detailScreen",
-			"shared": true
+			"timeStamp": "2025-09-03T12:38:46Z",
+			"destination": "detailScreen"
 		}
 	}
 }

@@ -100,6 +100,11 @@
 						"type": 66,
 						"formula": "Form:C1466.selectedNavItem",
 						"expanded": true
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.watchlistStocks",
+						"expanded": true
 					}
 				]
 			},
@@ -213,6 +218,10 @@
 					{
 						"type": 66,
 						"formula": "Form:C1466.watchlistStocks"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466"
 					}
 				]
 			},

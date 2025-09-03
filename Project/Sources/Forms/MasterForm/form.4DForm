@@ -98,18 +98,17 @@
 				},
 				"Subform": {
 					"type": "subform",
-					"left": 354,
-					"top": 17,
-					"width": 1139,
-					"height": 585,
-					"detailForm": "WatchlistForm",
-					"method": "ObjectMethods/Subform.4dm",
-					"dataSource": ""
+					"left": 355,
+					"top": 2,
+					"width": 1327,
+					"height": 595,
+					"dataSource": "Form:C1466",
+					"detailForm": "WatchlistForm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 39,
+	"geometryStamp": 44,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
