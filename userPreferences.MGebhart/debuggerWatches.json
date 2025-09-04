@@ -2,6 +2,16 @@
 	{
 		"codeDescriptorWatches": [
 			{
+				"path": "[projectForm]/ActivePositionsForm/addButton",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$activePositions",
+						"expanded": true
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/AddStockForm/nextButton",
 				"watches": [
 					{
@@ -90,6 +100,11 @@
 					{
 						"type": 66,
 						"formula": "Form:C1466.navigationLinks:=New collection:C1472"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.watchlist",
+						"expanded": true
 					}
 				]
 			},
@@ -109,106 +124,62 @@
 				]
 			},
 			{
-				"path": "[projectForm]/MasterForm/Subform",
+				"path": "[projectForm]/newActivePositionForm/strikePriceInput1",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "Form:C1466.navigationLinks",
-						"expanded": true
+						"formula": "Form:C1466.initialInvestment"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.sharesPurchased"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.purchasePrice"
 					}
 				]
 			},
 			{
-				"path": "[projectForm]/Navigation/{formMethod}",
+				"path": "[projectForm]/newWatchlistStockForm/Button1",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "$path"
-					},
-					{
-						"type": 66,
-						"formula": "$test"
-					},
-					{
-						"type": 66,
-						"formula": "Form:C1466.navigationLinks",
-						"expanded": true
-					},
-					{
-						"type": 66,
-						"formula": "Form:C1466.navContext"
+						"formula": "Form:C1466.supportPrice"
 					}
 				]
 			},
 			{
-				"path": "[projectForm]/newStockInfoForm/{formMethod}",
+				"path": "[projectForm]/newWatchlistStockForm/Input12",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "Form:C1466._200DaySMA",
-						"expanded": true
+						"formula": "Form:C1466.topResistance"
 					},
 					{
 						"type": 66,
-						"formula": "$alphaRequest.response.body[\"Technical Analysis: SMA\"][\"2025-08-12\"][\"SMA\"]"
-					},
-					{
-						"type": 66,
-						"formula": "_200DaySMA; "
-					},
-					{
-						"type": 66,
-						"formula": "$alphaQuoteUrl"
-					},
-					{
-						"type": 66,
-						"formula": "$webArea"
-					},
-					{
-						"type": 66,
-						"formula": "Form:C1466.webArea"
-					},
-					{
-						"type": 66,
-						"formula": "Form:C1466.CompanyName"
-					},
-					{
-						"type": 66,
-						"formula": "LoadTradingViewChart($ticker; $exchange)"
-					},
-					{
-						"type": 66,
-						"formula": "$chartURL"
+						"formula": "Form:C1466.resistanceText"
 					}
 				]
 			},
 			{
-				"path": "[projectForm]/newStockInfoForm/Button",
+				"path": "[projectForm]/newWatchlistStockForm/strikePriceInput1",
 				"watches": [
 					{
 						"type": 66,
-						"formula": "$strikePrice"
+						"formula": "Form:C1466.tenPercentStop"
 					},
 					{
 						"type": 66,
-						"formula": "$stopLossPrice"
+						"formula": "Form:C1466.WatchlistStock.strikePrice"
 					},
 					{
 						"type": 66,
-						"formula": "$watchlistStock.PercentageFromStrike"
+						"formula": "Form:C1466.strikePrice"
 					},
 					{
 						"type": 66,
-						"formula": "$watchlistStock",
-						"expanded": true
-					},
-					{
-						"type": 66,
-						"formula": "$watchlistStock.BotResistance"
-					},
-					{
-						"type": 66,
-						"formula": "$bottomResistancePrice"
+						"formula": "Form:C1466.strikePriceText"
 					}
 				]
 			},
@@ -222,6 +193,23 @@
 					{
 						"type": 66,
 						"formula": "Form:C1466"
+					}
+				]
+			},
+			{
+				"path": "CalculatePercentageFromPurchase",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$2"
+					},
+					{
+						"type": 66,
+						"formula": "$1"
+					},
+					{
+						"type": 66,
+						"formula": "Round:C94(((Num:C11($currentPrice)-Num:C11($purchasePrice))/Num:C11($purchasePrice))*100; 2)"
 					}
 				]
 			},
@@ -324,6 +312,15 @@
 					{
 						"type": 66,
 						"formula": "$filePath"
+					}
+				]
+			},
+			{
+				"path": "PopulateActivePositions",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "(Num:C11($obj.percentageFromPurchasePrice)>0)"
 					}
 				]
 			},

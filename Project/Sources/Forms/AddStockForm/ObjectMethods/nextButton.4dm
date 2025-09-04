@@ -4,7 +4,11 @@ Case of
 		Form.CompanyName:=Form.selectedStock.CompanyName
 		Form.Exchange:=Form.selectedStock.Exchange
 		ACCEPT
-		DIALOG("newStockInfoForm"; Form)
+		If (Form.Mode="Watchlist")
+			DIALOG("newWatchlistStockForm"; Form)
+		Else 
+			DIALOG("newActivePositionForm"; Form)
+		End if 
 		CLOSE WINDOW()
 		
 End case 

@@ -3,8 +3,16 @@
 		"line": 4,
 		"method": {
 			"type": 3,
-			"formName": "Navigation",
-			"methodPath": "/SOURCES/Forms/Navigation/method.4dm"
+			"formName": "Navigation"
+		}
+	},
+	{
+		"line": 11,
+		"method": {
+			"type": 2,
+			"formName": "newWatchlistStockForm",
+			"objectName": "Button1",
+			"methodPath": "/SOURCES/Forms/newWatchlistStockForm/ObjectMethods/Button1.4dm"
 		}
 	}
 ]

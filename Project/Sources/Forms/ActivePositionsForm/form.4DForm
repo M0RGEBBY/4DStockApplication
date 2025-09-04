@@ -36,36 +36,198 @@
 		},
 		{
 			"objects": {
-				"List Box": {
+				"refreshButton": {
+					"type": "button",
+					"text": "Refresh",
+					"top": 355,
+					"left": 921,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"class": "btn",
+					"fontWeight": "normal",
+					"defaultButton": false,
+					"method": "ObjectMethods/refreshButton.4dm"
+				},
+				"Form.LB_WatchlistStocks": {
 					"type": "listbox",
-					"left": 39,
-					"top": 78,
-					"width": 611,
-					"height": 307,
+					"left": 35,
+					"top": 76,
+					"width": 853,
+					"height": 321,
 					"events": [
 						"onClick",
 						"onHeaderClick",
 						"onDataChange",
 						"onSelectionChange"
 					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.activePositionStocks",
+					"method": "ObjectMethods/Form.LB_WatchlistStocks.4dm",
+					"currentItemSource": "Form:C1466.selectedWatchlistStock",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
 					"columns": [
 						{
 							"header": {
-								"text": "Header1",
-								"name": "Header1"
+								"text": "Ticker",
+								"name": "Header1",
+								"textAlign": "left",
+								"fontWeight": "bold"
 							},
-							"name": "Column1",
+							"name": "Ticker",
 							"footer": {
 								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.ticker",
+							"method": "ObjectMethods/Ticker.4dm",
+							"width": 124
+						},
+						{
+							"header": {
+								"name": "CompanyName",
+								"text": "CompanyName",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column1",
+							"dataSource": "This:C1470.CompanyName",
+							"width": 125,
+							"footer": {
+								"name": "Footer2"
 							}
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Purchase Price",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column4",
+							"dataSource": "\"$\"+String:C10(This:C1470.purchasePrice; \"###0.00\")",
+							"footer": {
+								"name": "Footer5"
+							},
+							"width": 126
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Current Price",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column6",
+							"dataSource": "\"$\"+String:C10(This:C1470.currentPrice; \"###0.00\")",
+							"footer": {
+								"name": "Footer7"
+							},
+							"width": 135
+						},
+						{
+							"header": {
+								"name": "Percentage From Strike",
+								"text": "% Change",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column5",
+							"width": 76,
+							"dataSource": "This:C1470.percentageFromPurchasePrice",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSourceTypeHint": "text"
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Shares Owned",
+								"fontWeight": "bold",
+								"textAlign": "left"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.sharesOwned",
+							"textAlign": "left"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Position Value",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "\"$\"+String:C10(This:C1470.sharesOwned*This:C1470.currentPrice; \"###,###,##0.00\")"
 						}
 					]
+				},
+				"addButton": {
+					"type": "button",
+					"text": "Open New Position",
+					"top": 76,
+					"left": 921,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/addButton.4dm"
+				},
+				"removeButton": {
+					"type": "button",
+					"text": "Close Selected Position",
+					"top": 200,
+					"left": 921,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/removeButton.4dm"
+				},
+				"editButton": {
+					"type": "button",
+					"text": "Edit Selected Position",
+					"top": 138,
+					"left": 921,
+					"width": 187,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/editButton.4dm"
+				},
+				"watchlistHeader": {
+					"type": "input",
+					"left": 35,
+					"top": 15,
+					"width": 853,
+					"height": 32,
+					"enterable": false,
+					"fontWeight": "bold",
+					"fontSize": 30,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"dataSource": "\"Active Positions\"",
+					"textAlign": "center"
 				}
 			}
 		}
 	],
 	"method": "method.4dm",
-	"geometryStamp": 5,
+	"geometryStamp": 8,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

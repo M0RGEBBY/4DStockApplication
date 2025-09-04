@@ -219,7 +219,8 @@
 					"fontStyle": "normal",
 					"textDecoration": "none",
 					"dataSource": "\"Watchlist\"",
-					"textAlign": "center"
+					"textAlign": "center",
+					"method": "ObjectMethods/watchlistHeader.4dm"
 				}
 			}
 		},

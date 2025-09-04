@@ -54,8 +54,8 @@
 		"height": 789
 	},
 	"Sources/Forms/AddStockForm/ObjectMethods/nextButton.4dm": {
-		"left": -36,
-		"top": 173,
+		"left": 0,
+		"top": 109,
 		"width": 1920,
 		"height": 931
 	},
@@ -66,10 +66,10 @@
 		"height": 490
 	},
 	"Sources/Methods/formController.4dm": {
-		"left": 543,
-		"top": 141,
-		"width": 965,
-		"height": 400
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
 		"left": -337,
@@ -85,7 +85,7 @@
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
 		"left": 0,
-		"top": 78,
+		"top": 109,
 		"width": 1920,
 		"height": 931
 	},
@@ -216,16 +216,16 @@
 		"height": 931
 	},
 	"Sources/Methods/CalculatePercentageFromStrike.4dm": {
-		"left": 374,
-		"top": 210,
-		"width": 1164,
-		"height": 777
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Methods/PopulateWatchlist.4dm": {
-		"left": 149,
-		"top": 127,
-		"width": 1316,
-		"height": 748
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Methods/GetCurrentPrice.4dm": {
 		"left": 148,
@@ -276,10 +276,10 @@
 		"height": 400
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
-		"left": 51,
-		"top": 109,
-		"width": 1150,
-		"height": 406
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm": {
 		"left": 0,
@@ -288,8 +288,8 @@
 		"height": 928
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input1.4dm": {
-		"left": 287,
-		"top": 210,
+		"left": 206,
+		"top": 208,
 		"width": 1181,
 		"height": 700
 	},
@@ -344,8 +344,8 @@
 	"Sources/Forms/MasterForm/method.4dm": {
 		"left": 0,
 		"top": 78,
-		"width": 1920,
-		"height": 931
+		"width": 1536,
+		"height": 811
 	},
 	"Sources/Forms/Navigation/ObjectMethods/List Box.4dm": {
 		"left": 0,
@@ -360,24 +360,204 @@
 		"height": 971
 	},
 	"Sources/Forms/MasterForm/ObjectMethods/List Box.4dm": {
-		"left": 435,
-		"top": 142,
-		"width": 1920,
-		"height": 931
-	},
-	"Sources/Forms/WatchlistForm/method.4dm": {
 		"left": 0,
 		"top": 78,
+		"width": 1536,
+		"height": 811
+	},
+	"Sources/Forms/WatchlistForm/method.4dm": {
+		"left": -473,
+		"top": 109,
 		"width": 1920,
 		"height": 931
 	},
 	"Sources/Forms/WatchlistForm/ObjectMethods/Form.LB_WatchlistStocks.4dm": {
 		"left": 0,
-		"top": 78,
+		"top": 109,
 		"width": 1920,
 		"height": 931
 	},
 	"Sources/Forms/testingSubforms/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Methods/PopulateActivePositions.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/ActivePositionsForm/method.4dm": {
+		"left": -537,
+		"top": 383,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/ActivePositionsForm/ObjectMethods/addButton.4dm": {
+		"left": 169,
+		"top": 270,
+		"width": 1536,
+		"height": 811
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/addButton.4dm": {
+		"left": -498,
+		"top": 212,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm1/method.4dm": {
+		"left": -258,
+		"top": 194,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/NewActivePositionForm/ObjectMethods/logoWebArea.4dm": {
+		"left": -27,
+		"top": 186,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/logoWebArea.4dm": {
+		"left": -27,
+		"top": 186,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/method.4dm": {
+		"left": -438,
+		"top": 298,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/NewActivePositionForm/method.4dm": {
+		"left": 0,
+		"top": 89,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/Input9.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/strikePriceInput.4dm": {
+		"left": 403,
+		"top": 127,
+		"width": 1152,
+		"height": 931
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/Button.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Button.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/Input4.4dm": {
+		"left": 0,
+		"top": 89,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/strikePriceInput1.4dm": {
+		"left": -126,
+		"top": 233,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/strikePriceInput2.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/ActivePositionsForm/ObjectMethods/Form.LB_WatchlistStocks.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Methods/CalculatePercentageFromPurchase.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/watchlistHeader.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/refreshButton.4dm": {
+		"left": -51,
+		"top": 241,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/editButton.4dm": {
+		"left": -473,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/ActivePositionsForm/ObjectMethods/refreshButton.4dm": {
+		"left": -142,
+		"top": 372,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/strikePriceInput1.4dm": {
+		"left": 7,
+		"top": 124,
+		"width": 965,
+		"height": 989
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input4.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input2.4dm": {
+		"left": 833,
+		"top": 132,
+		"width": 965,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input7.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input12.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Button1.4dm": {
+		"left": -602,
+		"top": 282,
+		"width": 1920,
+		"height": 573
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input3.4dm": {
 		"left": 0,
 		"top": 78,
 		"width": 1920,

@@ -31,7 +31,8 @@
 	</table>
 	<table name="ActivePositionStock" uuid="3DB993E8368A204AAEA5B0C5946F8512" id="4">
 		<field name="UUID" uuid="F0EF48BB18A1E745A0C5B8F941F62B47" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
-		<field name="PurchasePrice" uuid="B2F36F4B87B7854FBA9B3450BD0E5968" type="10" limiting_length="255" id="4"/>
+		<field name="SharesOwned" uuid="FA2F1238F442B346A801A072ADF75571" type="6" id="2"/>
+		<field name="PurchasePrice" uuid="B2F36F4B87B7854FBA9B3450BD0E5968" type="6" id="4"/>
 		<field name="PercentageFromPurchasePrice" uuid="AC7FB5654CCBEE4E8EF56F0E7FD2DEEC" type="10" limiting_length="255" id="5"/>
 		<field name="StopLossPrice" uuid="B2E5FDCB8AB83947AB5542AE5154726F" type="10" limiting_length="255" id="6"/>
 		<field name="stockUUID" uuid="558AAB6FFAEB27408801B67CCF967450" type="10" store_as_UUID="true" id="7"/>

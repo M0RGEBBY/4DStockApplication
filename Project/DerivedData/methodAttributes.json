@@ -1,5 +1,8 @@
 {
 	"methods": {
+		"CalculatePercentageFromPurchase": {
+			"timeStamp": "2025-09-04T18:44:38Z"
+		},
 		"CalculatePercentageFromStrike": {
 			"timeStamp": "2025-08-27T14:54:11Z",
 			"attributes": {
@@ -19,7 +22,7 @@
 			}
 		},
 		"formController": {
-			"timeStamp": "2025-09-02T20:23:24Z",
+			"timeStamp": "2025-09-03T13:09:19Z",
 			"attributes": {
 				"lang": "en"
 			}
@@ -41,6 +44,9 @@
 			"attributes": {
 				"lang": "en"
 			}
+		},
+		"PopulateActivePositions": {
+			"timeStamp": "2025-09-04T19:30:22Z"
 		},
 		"populateStockTable": {
 			"timeStamp": "2025-08-27T14:54:11Z",

@@ -38,7 +38,7 @@
 			"objects": {
 				"Text": {
 					"type": "text",
-					"text": "Add a Stock to Your Watchlist",
+					"text": "Select a stock from the list",
 					"top": 27,
 					"left": 24,
 					"width": 425,

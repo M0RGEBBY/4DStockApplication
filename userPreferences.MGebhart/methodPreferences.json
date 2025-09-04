@@ -81,13 +81,13 @@
 		"stamp": "2025-08-04T12:33:03.677Z"
 	},
 	"Sources/Forms/AddStockForm/ObjectMethods/nextButton.4dm": {
-		"startSelection": 14,
-		"endSelection": 0,
-		"firstSelectedLine": 7,
-		"lastSelectedLine": 5,
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-14T14:55:20.187Z"
+		"stamp": "2025-09-03T17:59:27.624Z"
 	},
 	"Sources/Forms/AddStockForm/ObjectMethods/List Box.4dm": {
 		"startSelection": 60,
@@ -99,13 +99,13 @@
 		"stamp": "2025-08-04T13:06:53.980Z"
 	},
 	"Sources/Methods/formController.4dm": {
-		"startSelection": 43,
-		"endSelection": 43,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-02T20:23:24.341Z"
+		"stamp": "2025-09-03T13:09:19.006Z"
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
 		"startSelection": 2,
@@ -126,15 +126,13 @@
 		"stamp": "2025-09-02T18:16:00.922Z"
 	},
 	"Sources/Forms/newStockInfoForm/method.4dm": {
-		"startSelection": 71,
-		"endSelection": 81,
-		"firstSelectedLine": 26,
-		"lastSelectedLine": 26,
-		"folding": [
-			12
-		],
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-19T15:14:44.408Z"
+		"stamp": "2025-08-27T14:54:11.235Z"
 	},
 	"Sources/Forms/newStockInfoForm/ObjectMethods/Input10.4dm": {
 		"startSelection": 0,
@@ -326,19 +324,19 @@
 		"stamp": "2025-08-22T19:42:47.921Z"
 	},
 	"Sources/Methods/CalculatePercentageFromStrike.4dm": {
-		"startSelection": 28,
-		"endSelection": 28,
-		"firstSelectedLine": 11,
-		"lastSelectedLine": 11,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 12,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-25T18:26:11.494Z"
+		"stamp": "2025-08-27T14:54:11.012Z"
 	},
 	"Sources/Methods/PopulateWatchlist.4dm": {
-		"startSelection": 45,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-08-29T13:07:04.747Z"
@@ -416,13 +414,13 @@
 		"stamp": "2025-08-27T13:21:41.079Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
-		"startSelection": 77,
-		"endSelection": 0,
-		"firstSelectedLine": 13,
-		"lastSelectedLine": 12,
+		"startSelection": 0,
+		"endSelection": 106,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-26T20:24:45.008Z"
+		"stamp": "2025-08-27T14:54:11.146Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Button.4dm": {
 		"startSelection": 23,
@@ -434,13 +432,13 @@
 		"stamp": "2025-08-29T13:22:32.920Z"
 	},
 	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/Input1.4dm": {
-		"startSelection": 80,
-		"endSelection": 80,
-		"firstSelectedLine": 4,
-		"lastSelectedLine": 4,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-08-27T13:31:41.921Z"
+		"stamp": "2025-09-04T17:23:23.767Z"
 	},
 	"Sources/Methods/Test.4dm": {
 		"startSelection": 13,
@@ -542,19 +540,19 @@
 		"stamp": "2025-08-29T19:00:45.341Z"
 	},
 	"Sources/Forms/MasterForm/ObjectMethods/List Box.4dm": {
-		"startSelection": 56,
-		"endSelection": 56,
-		"firstSelectedLine": 4,
-		"lastSelectedLine": 4,
+		"startSelection": 47,
+		"endSelection": 47,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-03T13:00:08.587Z"
+		"stamp": "2025-09-03T13:38:32.185Z"
 	},
 	"Sources/Forms/WatchlistForm/method.4dm": {
-		"startSelection": 32,
-		"endSelection": 32,
-		"firstSelectedLine": 7,
-		"lastSelectedLine": 7,
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-09-02T20:16:44.579Z"
@@ -576,5 +574,277 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-09-03T12:51:48.666Z"
+	},
+	"Sources/Methods/PopulateActivePositions.4dm": {
+		"startSelection": 79,
+		"endSelection": 79,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:30:22.961Z"
+	},
+	"Sources/Forms/ActivePositionsForm/method.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T18:21:21.153Z"
+	},
+	"Sources/Forms/ActivePositionsForm/ObjectMethods/addButton.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:23:38.947Z"
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/addButton.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:03:58.528Z"
+	},
+	"Sources/Forms/newWatchlistStockForm1/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.235Z"
+	},
+	"Sources/Forms/NewActivePositionForm/ObjectMethods/logoWebArea.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.266Z"
+	},
+	"Sources/Forms/EditWatchlistStockForm/ObjectMethods/logoWebArea.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.188Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/method.4dm": {
+		"startSelection": 49,
+		"endSelection": 49,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.235Z"
+	},
+	"Sources/Forms/NewActivePositionForm/method.4dm": {
+		"startSelection": 92,
+		"endSelection": 92,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [
+			12
+		],
+		"bookmarks": [],
+		"stamp": "2025-09-03T18:18:03.831Z"
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/Input9.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-03T18:20:03.034Z"
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/strikePriceInput.4dm": {
+		"startSelection": 0,
+		"endSelection": 66,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T18:19:50.663Z"
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/Button.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T17:47:04.986Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Button.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 37,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.251Z"
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/Input4.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T17:51:22.163Z"
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/strikePriceInput1.4dm": {
+		"startSelection": 6,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T18:13:18.713Z"
+	},
+	"Sources/Forms/newActivePositionForm/ObjectMethods/strikePriceInput2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T18:05:46.459Z"
+	},
+	"Sources/Forms/ActivePositionsForm/ObjectMethods/Form.LB_WatchlistStocks.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-03T13:42:44.641Z"
+	},
+	"Sources/Methods/CalculatePercentageFromPurchase.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T18:44:38.753Z"
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/watchlistHeader.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:05:43.526Z"
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/refreshButton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-27T14:54:11.206Z"
+	},
+	"Sources/Forms/WatchlistForm/ObjectMethods/editButton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-08-29T13:24:20.477Z"
+	},
+	"Sources/Forms/ActivePositionsForm/ObjectMethods/refreshButton.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:43:31.959Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/strikePriceInput.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:50:19.169Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/strikePriceInput1.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T20:17:18.832Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input4.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:50:19.170Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input2.4dm": {
+		"startSelection": 63,
+		"endSelection": 63,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T20:07:42.361Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input7.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T19:53:00.810Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input12.4dm": {
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T20:15:50.056Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Button1.4dm": {
+		"startSelection": 39,
+		"endSelection": 39,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T20:23:22.232Z"
+	},
+	"Sources/Forms/newWatchlistStockForm/ObjectMethods/Input3.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-04T20:16:09.143Z"
 	}
 }

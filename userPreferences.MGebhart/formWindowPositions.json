@@ -1,20 +1,8 @@
 {
-	"Sources/Forms/testingSubforms/form.4DForm": {
-		"left": 108,
-		"top": 109,
-		"width": 1692,
-		"height": 940
-	},
-	"Sources/Forms/ActivePositionsForm/form.4DForm": {
-		"left": 0,
-		"top": 78,
-		"width": 1920,
-		"height": 931
-	},
-	"Sources/Forms/WatchlistForm/form.4DForm": {
-		"left": -728,
-		"top": 208,
-		"width": 1692,
-		"height": 940
+	"Sources/Forms/newWatchlistStockForm/form.4DForm": {
+		"left": 15,
+		"top": 110,
+		"width": 902,
+		"height": 883
 	}
 }

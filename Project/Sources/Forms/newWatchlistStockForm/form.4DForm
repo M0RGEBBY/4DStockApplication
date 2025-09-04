@@ -1,0 +1,390 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDragOver",
+		"onCloseBox",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"text": "",
+					"top": 323,
+					"left": 703,
+					"width": 18,
+					"height": 15
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 16,
+					"left": 32,
+					"width": 986,
+					"height": 100,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Input9": {
+					"type": "input",
+					"left": 136,
+					"top": 30,
+					"width": 491,
+					"height": 42,
+					"fontSize": 30,
+					"dataSource": "Form:C1466.CompanyName",
+					"fill": "transparent",
+					"enterable": false,
+					"focusable": false,
+					"multiline": "no",
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"textAlign": "left",
+					"method": "ObjectMethods/Input9.4dm"
+				},
+				"Input10": {
+					"type": "input",
+					"left": 675,
+					"top": 39,
+					"width": 149,
+					"height": 55,
+					"fontSize": 40,
+					"dataSource": "String:C10(Form:C1466.currentPrice; \"###0.00\")",
+					"fill": "transparent",
+					"enterable": false,
+					"focusable": false,
+					"multiline": "no",
+					"stroke": "automatic",
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"method": "ObjectMethods/Input10.4dm",
+					"textAlign": "right"
+				},
+				"changeString": {
+					"type": "input",
+					"left": 837,
+					"top": 56,
+					"width": 159,
+					"height": 26,
+					"fontSize": 18,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"dataSource": "Form:C1466.priceStatusString",
+					"method": "ObjectMethods/changeString.4dm",
+					"textAlign": "right",
+					"borderRadius": 5,
+					"sizingX": "fixed"
+				},
+				"logoWebArea": {
+					"type": "webArea",
+					"left": 43,
+					"top": 30,
+					"width": 81,
+					"height": 73,
+					"dataSource": "Form:C1466.logoWebArea",
+					"method": "ObjectMethods/logoWebArea.4dm",
+					"events": [],
+					"borderStyle": "none"
+				},
+				"changeString1": {
+					"type": "input",
+					"left": 136,
+					"top": 77,
+					"width": 442,
+					"height": 26,
+					"fontSize": 18,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"dataSource": "Form:C1466.Ticker",
+					"method": "ObjectMethods/changeString1.4dm"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 136,
+					"left": 32,
+					"width": 986,
+					"height": 375,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "",
+					"top": 336,
+					"left": 703,
+					"width": 18,
+					"height": 15
+				},
+				"WebArea": {
+					"type": "webArea",
+					"left": 43,
+					"top": 147,
+					"width": 965,
+					"height": 353,
+					"dataSource": "Form:C1466.webArea",
+					"method": "ObjectMethods/WebArea.4dm",
+					"events": [],
+					"borderStyle": "none"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 531,
+					"left": 32,
+					"width": 986,
+					"height": 369,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 141,
+					"top": 797,
+					"width": 168,
+					"height": 16,
+					"enterable": false,
+					"dataSource": "Form:C1466.fivePercentStop",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"fontSize": 16,
+					"method": "ObjectMethods/Input1.4dm",
+					"borderRadius": 2,
+					"stroke": "#ff0000"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Enter Strike Price",
+					"top": 556,
+					"left": 51,
+					"width": 271,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"strikePriceInput1": {
+					"type": "input",
+					"left": 51,
+					"top": 597,
+					"width": 148,
+					"height": 22,
+					"fontSize": 16,
+					"method": "ObjectMethods/strikePriceInput1.4dm",
+					"dataSource": "Form:C1466.strikePriceText",
+					"events": [
+						"onDataChange"
+					],
+					"enterable": true,
+					"fontWeight": "bold",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"borderStyle": "solid",
+					"defaultValue": "",
+					"textAlign": "left",
+					"fill": "#c0c0c0",
+					"borderRadius": 2
+				},
+				"Input2": {
+					"type": "input",
+					"left": 51,
+					"top": 720,
+					"width": 148,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.stopLossText",
+					"method": "ObjectMethods/Input2.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Use a valid dollar amount. Press Enter to apply.",
+					"top": 639,
+					"left": 51,
+					"width": 257,
+					"height": 15
+				},
+				"Input3": {
+					"type": "input",
+					"left": 567,
+					"top": 785,
+					"width": 171,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.supportText",
+					"method": "ObjectMethods/Input3.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Identify Resistance Price",
+					"top": 687,
+					"left": 567,
+					"width": 271,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"Text6": {
+					"type": "text",
+					"text": "Set A Stop Loss",
+					"top": 687,
+					"left": 51,
+					"width": 271,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"Input11": {
+					"type": "input",
+					"left": 141,
+					"top": 828,
+					"width": 168,
+					"height": 16,
+					"enterable": false,
+					"dataSource": "Form:C1466.tenPercentStop",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"fontSize": 16,
+					"method": "ObjectMethods/Input11.4dm",
+					"borderRadius": 2,
+					"stroke": "#ff0000"
+				},
+				"Text16": {
+					"type": "text",
+					"text": "We’ll preview some stop loss thresholds based on your strike price.\r",
+					"top": 762,
+					"left": 51,
+					"width": 354,
+					"height": 15
+				},
+				"Text17": {
+					"type": "text",
+					"text": "Identify Support Price",
+					"top": 757,
+					"left": 567,
+					"width": 271,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"Input12": {
+					"type": "input",
+					"left": 567,
+					"top": 715,
+					"width": 171,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.resistanceText",
+					"method": "ObjectMethods/Input12.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"text": "5% Stop:",
+					"top": 797,
+					"left": 51,
+					"width": 84,
+					"height": 21,
+					"fontSize": 16,
+					"fontWeight": "bold"
+				},
+				"Text21": {
+					"type": "text",
+					"text": "10% Stop:",
+					"top": 828,
+					"left": 51,
+					"width": 84,
+					"height": 21,
+					"fontSize": 16,
+					"fontWeight": "bold"
+				},
+				"Line": {
+					"type": "line",
+					"top": 674,
+					"left": 51,
+					"width": 945,
+					"height": 0,
+					"stroke": "#808080",
+					"startPoint": "topLeft"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Submit",
+					"top": 849,
+					"left": 854,
+					"width": 154,
+					"height": 42,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 873,
+	"editor": {
+		"groups": {
+			"Group": [
+				"Rectangle1",
+				"Text2",
+				"WebArea"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

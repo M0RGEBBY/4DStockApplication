@@ -41,7 +41,7 @@
 					"left": 1,
 					"top": 2,
 					"width": 343,
-					"height": 600,
+					"height": 603,
 					"events": [
 						"onClick",
 						"onHeaderClick",
@@ -108,7 +108,7 @@
 			}
 		}
 	],
-	"geometryStamp": 44,
+	"geometryStamp": 45,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
