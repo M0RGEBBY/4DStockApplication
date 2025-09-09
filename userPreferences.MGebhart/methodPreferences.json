@@ -513,13 +513,13 @@
 		"stamp": "2025-09-02T19:02:29.283Z"
 	},
 	"Sources/Forms/MasterForm/method.4dm": {
-		"startSelection": 9,
-		"endSelection": 9,
-		"firstSelectedLine": 23,
-		"lastSelectedLine": 23,
+		"startSelection": 55,
+		"endSelection": 55,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-09T16:02:26.850Z"
+		"stamp": "2025-09-09T17:24:38.740Z"
 	},
 	"Sources/Forms/Navigation/ObjectMethods/List Box.4dm": {
 		"startSelection": 0,
@@ -540,13 +540,13 @@
 		"stamp": "2025-08-29T19:00:45.341Z"
 	},
 	"Sources/Forms/MasterForm/ObjectMethods/List Box.4dm": {
-		"startSelection": 42,
-		"endSelection": 42,
+		"startSelection": 30,
+		"endSelection": 30,
 		"firstSelectedLine": 12,
 		"lastSelectedLine": 12,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2025-09-09T16:02:56.022Z"
+		"stamp": "2025-09-09T17:25:41.653Z"
 	},
 	"Sources/Forms/WatchlistForm/method.4dm": {
 		"startSelection": 69,

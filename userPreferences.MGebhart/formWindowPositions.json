@@ -1,9 +1,9 @@
 {
 	"Sources/Forms/EditActivePositionForm/form.4DForm": {
-		"left": 83,
-		"top": 109,
-		"width": 1536,
-		"height": 913
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	},
 	"Sources/Forms/newActivePositionForm/form.4DForm": {
 		"left": 52,
@@ -30,9 +30,27 @@
 		"height": 931
 	},
 	"Sources/Forms/MasterForm/form.4DForm": {
-		"left": 52,
-		"top": 225,
-		"width": 1536,
-		"height": 913
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/SettingsForm/form.4DForm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/EditWatchlistStockForm/form.4DForm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/WatchlistForm/form.4DForm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
 	}
 }

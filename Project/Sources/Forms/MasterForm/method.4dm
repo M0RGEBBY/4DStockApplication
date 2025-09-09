@@ -20,5 +20,5 @@ Case of
 		Form.navigationLinks.push(New object("label"; "Watchlist"; "icon"; $picWatchlist))
 		Form.navigationLinks.push(New object("label"; "Active Positions"; "icon"; $picActive))
 		Form.navigationLinks.push(New object("label"; "Journal"; "icon"; $picJournal))
-		Form.navigationLinks.push(New object("label"; "Administration"; "icon"; $picAdmin))
+		Form.navigationLinks.push(New object("label"; "Settings"; "icon"; $picAdmin))
 End case 

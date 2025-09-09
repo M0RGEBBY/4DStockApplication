@@ -100,15 +100,16 @@
 					"type": "subform",
 					"left": 355,
 					"top": 2,
-					"width": 1327,
+					"width": 1131,
 					"height": 595,
 					"dataSource": "Form:C1466",
-					"detailForm": "WatchlistForm"
+					"detailForm": "WatchlistForm",
+					"scrollbarVertical": "visible"
 				}
 			}
 		}
 	],
-	"geometryStamp": 45,
+	"geometryStamp": 46,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

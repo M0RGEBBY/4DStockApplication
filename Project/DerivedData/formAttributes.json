@@ -25,7 +25,7 @@
 			"destination": "detailScreen"
 		},
 		"MasterForm": {
-			"timeStamp": "2025-09-03T13:55:22Z",
+			"timeStamp": "2025-09-09T18:55:18Z",
 			"destination": "detailScreen"
 		},
 		"newActivePositionForm": {
@@ -34,6 +34,10 @@
 		},
 		"newWatchlistStockForm": {
 			"timeStamp": "2025-09-09T14:13:43Z",
+			"destination": "detailScreen"
+		},
+		"SettingsForm": {
+			"timeStamp": "2025-09-09T19:31:19Z",
 			"destination": "detailScreen"
 		},
 		"WatchlistForm": {

@@ -36,19 +36,414 @@
 		},
 		{
 			"objects": {
-				"Button": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 82,
+					"left": 14,
+					"width": 1054,
+					"height": 532,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 187,
+					"left": 35,
+					"width": 1023,
+					"height": 195,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Notice: This application relies on multiple stock market APIs to display real-time information. To use it, you’ll need to create accounts with each API provider and supply your own API keys. Below, you’ll find a brief description of how each API is used, along with the rate limits for their free tiers.",
+					"top": 129,
+					"left": 37,
+					"width": 1016,
+					"height": 38,
+					"fontWeight": "bold",
+					"fill": "#fffacd",
+					"borderStyle": "solid",
+					"borderRadius": 2,
+					"fontSize": 14
+				},
+				"Text14": {
+					"type": "text",
+					"text": "Finnhub API Key",
+					"top": 193,
+					"left": 47,
+					"width": 160,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 47,
+					"top": 224,
+					"width": 546,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.finnhubAPIKey",
+					"method": "ObjectMethods/Input1.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					],
+					"placeholder": "Enter your finnhub API Key"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Free Tier Rate Limit:",
+					"top": 254,
+					"left": 47,
+					"width": 476,
+					"height": 21,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 16
+				},
+				"Text3": {
+					"type": "text",
+					"text": "60 Calls Per Minute / Unlimited Daily",
+					"top": 279,
+					"left": 47,
+					"width": 523,
+					"height": 15,
+					"fontWeight": "normal",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 14
+				},
+				"Text8": {
+					"type": "text",
+					"text": "Usage:",
+					"top": 305,
+					"left": 47,
+					"width": 160,
+					"height": 15,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 16
+				},
+				"Text9": {
+					"type": "text",
+					"text": "Primary API used by the application. Used to grab current price across a variety of different forms. The application works best with a paid key, but if you exceed your rate limit, simply wait 60 seconds and try and perform your action again.",
+					"top": 332,
+					"left": 47,
+					"width": 867,
+					"height": 38,
+					"fontWeight": "normal",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 14
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 395,
+					"left": 35,
+					"width": 1023,
+					"height": 202,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Text10": {
+					"type": "text",
+					"text": "Polygon.io API Key",
+					"top": 401,
+					"left": 47,
+					"width": 160,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 47,
+					"top": 432,
+					"width": 546,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.polygonAPIKey",
+					"method": "ObjectMethods/Input3.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					],
+					"placeholder": "Enter your polygon.io API Key"
+				},
+				"Text11": {
+					"type": "text",
+					"text": "Free Tier Rate Limit:",
+					"top": 462,
+					"left": 47,
+					"width": 476,
+					"height": 21,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 16
+				},
+				"Text12": {
+					"type": "text",
+					"text": "5 Calls Per Minute / Unlimited Daily",
+					"top": 487,
+					"left": 47,
+					"width": 523,
+					"height": 15,
+					"fontWeight": "normal",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 14
+				},
+				"Text13": {
+					"type": "text",
+					"text": "Usage:",
+					"top": 513,
+					"left": 47,
+					"width": 160,
+					"height": 15,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 16
+				},
+				"Text15": {
+					"type": "text",
+					"text": "Used to populate Stock Table, the table that holds information about all listed stocks. Only runs from the settings menu or on first time startup.",
+					"top": 540,
+					"left": 47,
+					"width": 1011,
+					"height": 57,
+					"fontWeight": "normal",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 14
+				},
+				"Button4": {
 					"type": "button",
-					"text": "Button",
-					"top": 99,
-					"left": 201,
-					"width": 410,
-					"height": 231,
+					"text": "Test",
+					"top": 428,
+					"left": 607,
+					"width": 102,
+					"height": 31,
 					"events": [
 						"onClick"
 					]
+				},
+				"settingsHeader": {
+					"type": "input",
+					"left": 0,
+					"top": 20,
+					"width": 1063,
+					"height": 42,
+					"enterable": false,
+					"fontWeight": "bold",
+					"fontSize": 30,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"dataSource": "\"Application Settings\"",
+					"textAlign": "center",
+					"method": "ObjectMethods/settingsHeader.4dm",
+					"fill": "transparent"
+				},
+				"settingsHeader1": {
+					"type": "input",
+					"left": 35,
+					"top": 94,
+					"width": 1018,
+					"height": 26,
+					"enterable": false,
+					"fontWeight": "bold",
+					"fontSize": 18,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"dataSource": "\"API Configuration\"",
+					"textAlign": "left",
+					"method": "ObjectMethods/settingsHeader1.4dm",
+					"fill": "transparent"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Test",
+					"top": 220,
+					"left": 607,
+					"width": 102,
+					"height": 31,
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 634,
+					"left": 14,
+					"width": 1054,
+					"height": 85,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Test Result:",
+					"top": 225,
+					"left": 742,
+					"width": 92,
+					"height": 21,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 16
+				},
+				"Input2": {
+					"type": "input",
+					"left": 848,
+					"top": 224,
+					"width": 109,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.finnhubTestResult",
+					"method": "ObjectMethods/Input2.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					],
+					"placeholder": "Enter your polygon.io API Key"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Test Result:",
+					"top": 433,
+					"left": 742,
+					"width": 92,
+					"height": 21,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 16
+				},
+				"Input4": {
+					"type": "input",
+					"left": 848,
+					"top": 433,
+					"width": 109,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.polygonTestResult",
+					"method": "ObjectMethods/Input4.4dm",
+					"enterable": true,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					],
+					"placeholder": "Enter your polygon.io API Key"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 643,
+					"left": 35,
+					"width": 1023,
+					"height": 67,
+					"borderRadius": 5,
+					"stroke": "#696969"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Refresh Stock Table",
+					"top": 663,
+					"left": 908,
+					"width": 136,
+					"height": 31,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Refresh the list of available stocks listed on the stock exchange. Removes delisted stocks and adds newly listed stocks.",
+					"top": 680,
+					"left": 47,
+					"width": 841,
+					"height": 19,
+					"fontWeight": "normal",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 14
+				},
+				"settingsHeader2": {
+					"type": "input",
+					"left": 47,
+					"top": 650,
+					"width": 237,
+					"height": 26,
+					"enterable": false,
+					"fontWeight": "bold",
+					"fontSize": 18,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"dataSource": "\"Stock Table Manual Refresh\"",
+					"textAlign": "left",
+					"method": "ObjectMethods/settingsHeader2.4dm",
+					"fill": "transparent"
 				}
 			}
 		}
 	],
-	"geometryStamp": 2
+	"geometryStamp": 370,
+	"editor": {
+		"groups": {
+			"Group": [
+				"Rectangle2",
+				"Text14",
+				"Input1",
+				"Text2",
+				"Text3",
+				"Text8",
+				"Text9",
+				"Button1",
+				"Text4",
+				"Input2"
+			],
+			"Group1": [
+				"Rectangle3",
+				"Text10",
+				"Input3",
+				"Text11",
+				"Text12",
+				"Text13",
+				"Text15",
+				"Button4",
+				"Text5",
+				"Input4"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

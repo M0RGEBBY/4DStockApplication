@@ -2,26 +2,24 @@
 	"editors": [
 		{
 			"type": "form",
-			"id": 344,
+			"id": 232,
 			"formName": "SettingsForm"
 		},
 		{
-			"type": "method",
-			"id": 2147483618,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "MasterForm",
-				"objectName": "List Box",
-				"methodPath": "/SOURCES/Forms/MasterForm/ObjectMethods/List Box.4dm"
-			}
+			"type": "explorer"
 		},
 		{
 			"type": "form",
-			"id": 228,
+			"id": 229,
 			"formName": "MasterForm"
 		},
 		{
-			"type": "explorer"
+			"type": "method",
+			"id": 2147483637,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "populateStockTable"
+			}
 		}
 	]
 }

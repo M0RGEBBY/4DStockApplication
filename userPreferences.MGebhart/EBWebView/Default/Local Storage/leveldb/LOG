@@ -1,3 +1,5 @@
-2025/09/09-11:35:25.605 5f1c Reusing MANIFEST C:\4DProjects\stockApplication\userPreferences.MGebhart\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/09/09-11:35:25.610 5f1c Recovering log #122
-2025/09/09-11:35:25.611 5f1c Reusing old log C:\4DProjects\stockApplication\userPreferences.MGebhart\EBWebView\Default\Local Storage\leveldb/000122.log 
+2025/09/09-14:55:32.066 7b10 Reusing MANIFEST C:\4DProjects\stockApplication\userPreferences.MGebhart\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/09/09-14:55:32.071 7b10 Recovering log #126
+2025/09/09-14:55:32.072 7b10 Level-0 table #129: started
+2025/09/09-14:55:32.077 7b10 Level-0 table #129: 26600 bytes OK
+2025/09/09-14:55:32.079 7b10 Delete type=0 #126

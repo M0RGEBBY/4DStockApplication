@@ -9,7 +9,7 @@ Case of
 				OBJECT SET SUBFORM(*; "Subform"; "DashboardForm")
 			: (Form.selectedNavItem.label="Journal")
 				OBJECT SET SUBFORM(*; "Subform"; "JournalForm")
-			: (Form.selectedNavItem.label="Administration")
+			: (Form.selectedNavItem.label="Settings")
 				OBJECT SET SUBFORM(*; "Subform"; "SettingsForm")
 		End case 
 End case 
