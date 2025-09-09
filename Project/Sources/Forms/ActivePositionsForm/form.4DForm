@@ -66,7 +66,7 @@
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.activePositionStocks",
 					"method": "ObjectMethods/Form.LB_WatchlistStocks.4dm",
-					"currentItemSource": "Form:C1466.selectedWatchlistStock",
+					"currentItemSource": "Form:C1466.selectedActivePosition",
 					"scrollbarHorizontal": "hidden",
 					"scrollbarVertical": "hidden",
 					"columns": [
@@ -87,14 +87,14 @@
 						},
 						{
 							"header": {
-								"name": "CompanyName",
+								"name": "Company Name",
 								"text": "CompanyName",
 								"textAlign": "left",
 								"fontWeight": "bold"
 							},
 							"name": "Column1",
 							"dataSource": "This:C1470.CompanyName",
-							"width": 125,
+							"width": 165,
 							"footer": {
 								"name": "Footer2"
 							}
@@ -111,7 +111,7 @@
 							"footer": {
 								"name": "Footer5"
 							},
-							"width": 126
+							"width": 89
 						},
 						{
 							"header": {
@@ -125,22 +125,7 @@
 							"footer": {
 								"name": "Footer7"
 							},
-							"width": 135
-						},
-						{
-							"header": {
-								"name": "Percentage From Strike",
-								"text": "% Change",
-								"textAlign": "left",
-								"fontWeight": "bold"
-							},
-							"name": "Column5",
-							"width": 76,
-							"dataSource": "This:C1470.percentageFromPurchasePrice",
-							"footer": {
-								"name": "Footer6"
-							},
-							"dataSourceTypeHint": "text"
+							"width": 83
 						},
 						{
 							"header": {
@@ -154,7 +139,8 @@
 								"name": "Footer3"
 							},
 							"dataSource": "This:C1470.sharesOwned",
-							"textAlign": "left"
+							"textAlign": "left",
+							"width": 88
 						},
 						{
 							"header": {
@@ -167,7 +153,37 @@
 							"footer": {
 								"name": "Footer4"
 							},
-							"dataSource": "\"$\"+String:C10(This:C1470.sharesOwned*This:C1470.currentPrice; \"###,###,##0.00\")"
+							"dataSource": "\"$\"+String:C10(This:C1470.sharesOwned*This:C1470.currentPrice; \"###,###,##0.00\")",
+							"width": 110
+						},
+						{
+							"header": {
+								"name": "Percentage From Strike",
+								"text": "Total % Change",
+								"textAlign": "left",
+								"fontWeight": "bold"
+							},
+							"name": "Column5",
+							"width": 104,
+							"dataSource": "This:C1470.percentageFromPurchasePrice",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSourceTypeHint": "text"
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Total P/L",
+								"fontWeight": "bold",
+								"textAlign": "left"
+							},
+							"name": "Column7",
+							"dataSource": "This:C1470.totalPL",
+							"footer": {
+								"name": "Footer8"
+							},
+							"width": 91
 						}
 					]
 				},
@@ -227,7 +243,7 @@
 		}
 	],
 	"method": "method.4dm",
-	"geometryStamp": 8,
+	"geometryStamp": 11,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

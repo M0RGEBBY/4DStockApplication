@@ -167,7 +167,7 @@
 				},
 				"Input1": {
 					"type": "input",
-					"left": 141,
+					"left": 220,
 					"top": 797,
 					"width": 168,
 					"height": 16,
@@ -278,7 +278,7 @@
 				},
 				"Input11": {
 					"type": "input",
-					"left": 141,
+					"left": 220,
 					"top": 828,
 					"width": 168,
 					"height": 16,
@@ -329,20 +329,20 @@
 				},
 				"Text20": {
 					"type": "text",
-					"text": "5% Stop:",
+					"text": "5% Stop Price:",
 					"top": 797,
 					"left": 51,
-					"width": 84,
+					"width": 161,
 					"height": 21,
 					"fontSize": 16,
 					"fontWeight": "bold"
 				},
 				"Text21": {
 					"type": "text",
-					"text": "10% Stop:",
+					"text": "10% Stop Price:",
 					"top": 828,
 					"left": 51,
-					"width": 84,
+					"width": 161,
 					"height": 21,
 					"fontSize": 16,
 					"fontWeight": "bold"
@@ -371,7 +371,7 @@
 			}
 		}
 	],
-	"geometryStamp": 873,
+	"geometryStamp": 876,
 	"editor": {
 		"groups": {
 			"Group": [

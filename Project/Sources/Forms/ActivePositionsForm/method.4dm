@@ -9,5 +9,5 @@ Case of
 		
 End case 
 
-OBJECT SET ENABLED(*; "removeButton"; Form.selectedWatchlistStock#Null)
-OBJECT SET ENABLED(*; "editButton"; Form.selectedWatchlistStock#Null)
+OBJECT SET ENABLED(*; "removeButton"; Form.selectedActivePosition#Null)
+OBJECT SET ENABLED(*; "editButton"; Form.selectedActivePosition#Null)

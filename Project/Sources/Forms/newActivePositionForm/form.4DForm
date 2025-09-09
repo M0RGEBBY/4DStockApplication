@@ -189,7 +189,7 @@
 				},
 				"Input7": {
 					"type": "input",
-					"left": 200,
+					"left": 154,
 					"top": 797,
 					"width": 168,
 					"height": 16,
@@ -284,7 +284,7 @@
 				},
 				"Input8": {
 					"type": "input",
-					"left": 200,
+					"left": 154,
 					"top": 828,
 					"width": 168,
 					"height": 16,
@@ -302,12 +302,12 @@
 					"text": "We’ll preview some stop loss thresholds based on your purchase price\r",
 					"top": 762,
 					"left": 51,
-					"width": 354,
+					"width": 377,
 					"height": 15
 				},
 				"Text4": {
 					"type": "text",
-					"text": "5% Stop Price:",
+					"text": "5% Stop:",
 					"top": 797,
 					"left": 51,
 					"width": 129,
@@ -317,7 +317,7 @@
 				},
 				"Text5": {
 					"type": "text",
-					"text": "10% Stop Price:",
+					"text": "10% Stop:",
 					"top": 828,
 					"left": 51,
 					"width": 129,
@@ -388,11 +388,39 @@
 					"textAlign": "left",
 					"fill": "#c0c0c0",
 					"borderRadius": 2
+				},
+				"Text8": {
+					"type": "text",
+					"text": "Total Profit/Loss if Stop Triggered:",
+					"top": 687,
+					"left": 642,
+					"width": 319,
+					"height": 25,
+					"fontSize": 18,
+					"fontWeight": "bold"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 642,
+					"top": 720,
+					"width": 148,
+					"height": 22,
+					"fontSize": 16,
+					"dataSource": "Form:C1466.PLText",
+					"method": "ObjectMethods/Input1.4dm",
+					"enterable": false,
+					"fontWeight": "bold",
+					"borderStyle": "solid",
+					"fill": "#c0c0c0",
+					"borderRadius": 2,
+					"events": [
+						"onDataChange"
+					]
 				}
 			}
 		}
 	],
-	"geometryStamp": 863,
+	"geometryStamp": 876,
 	"editor": {
 		"groups": {
 			"Group": [

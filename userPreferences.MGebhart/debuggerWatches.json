@@ -37,6 +37,89 @@
 				]
 			},
 			{
+				"path": "[projectForm]/EditActivePositionForm/{formMethod}",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.selectedActivePosition"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.ActivePosition"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.currentPrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466",
+						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditActivePositionForm/Button",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "$sharesOwned"
+					},
+					{
+						"type": 66,
+						"formula": "$purchasePrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.ActivePositionStock.initialInvestment"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditActivePositionForm/Input4",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.PL"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.stopLossPrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.purchasePrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.sharesPurchased"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditActivePositionForm/strikePriceInput",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.ActivePosition.purchasePrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.PL"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/EditActivePositionForm/strikePriceInput1",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.ActivePosition",
+						"expanded": true
+					}
+				]
+			},
+			{
 				"path": "[projectForm]/EditWatchlistStockForm/{formMethod}",
 				"watches": [
 					{
@@ -120,6 +203,36 @@
 						"type": 66,
 						"formula": "Form:C1466.watchlistStocks",
 						"expanded": true
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/newActivePositionForm/Button",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.initialInvestment"
+					}
+				]
+			},
+			{
+				"path": "[projectForm]/newActivePositionForm/Input4",
+				"watches": [
+					{
+						"type": 66,
+						"formula": "Form:C1466.PL"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.stopLossPrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.purchasePrice"
+					},
+					{
+						"type": 66,
+						"formula": "Form:C1466.sharesPurchased"
 					}
 				]
 			},
@@ -321,6 +434,14 @@
 					{
 						"type": 66,
 						"formula": "(Num:C11($obj.percentageFromPurchasePrice)>0)"
+					},
+					{
+						"type": 66,
+						"formula": "$obj.totalPL"
+					},
+					{
+						"type": 66,
+						"formula": "$stockEntity"
 					}
 				]
 			},

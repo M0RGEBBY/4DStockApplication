@@ -17,6 +17,7 @@ Case of
 			$activePositionStock.StopLossPrice:=$stopLossPrice
 			$activePositionStock.SharesOwned:=$sharesPurchased
 			$activePositionStock.stockUUID:=$stock[0].UUID
+			$activePositionStock.InitialInvestment:=Form.initialInvestment
 			$activePositionStock.save()
 			
 			ACCEPT
