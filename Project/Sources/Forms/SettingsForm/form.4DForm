@@ -377,7 +377,8 @@
 					"height": 31,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/Button2.4dm"
 				},
 				"Text1": {
 					"type": "text",

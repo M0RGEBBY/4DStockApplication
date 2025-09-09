@@ -598,10 +598,10 @@
 		"stamp": "2025-09-08T17:55:32.600Z"
 	},
 	"Sources/Forms/ActivePositionsForm/ObjectMethods/addButton.4dm": {
-		"startSelection": 34,
-		"endSelection": 34,
-		"firstSelectedLine": 10,
-		"lastSelectedLine": 10,
+		"startSelection": 30,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-09-04T19:23:38.947Z"
@@ -940,5 +940,14 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2025-09-09T14:50:57.563Z"
+	},
+	"Sources/Forms/SettingsForm/ObjectMethods/Button2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-09-09T20:19:56.192Z"
 	}
 }

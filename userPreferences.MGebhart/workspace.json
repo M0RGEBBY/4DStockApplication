@@ -6,9 +6,6 @@
 			"formName": "SettingsForm"
 		},
 		{
-			"type": "explorer"
-		},
-		{
 			"type": "form",
 			"id": 229,
 			"formName": "MasterForm"
