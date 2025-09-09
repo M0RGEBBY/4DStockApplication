@@ -1,6 +1,26 @@
 {
 	"editors": [
 		{
+			"type": "form",
+			"id": 344,
+			"formName": "SettingsForm"
+		},
+		{
+			"type": "method",
+			"id": 2147483618,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "MasterForm",
+				"objectName": "List Box",
+				"methodPath": "/SOURCES/Forms/MasterForm/ObjectMethods/List Box.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 228,
+			"formName": "MasterForm"
+		},
+		{
 			"type": "explorer"
 		}
 	]

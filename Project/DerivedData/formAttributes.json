@@ -20,6 +20,10 @@
 			"timeStamp": "2025-09-04T17:23:30Z",
 			"destination": "detailScreen"
 		},
+		"JournalForm": {
+			"timeStamp": "2025-09-09T15:49:17Z",
+			"destination": "detailScreen"
+		},
 		"MasterForm": {
 			"timeStamp": "2025-09-03T13:55:22Z",
 			"destination": "detailScreen"

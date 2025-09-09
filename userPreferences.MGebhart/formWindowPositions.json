@@ -22,5 +22,17 @@
 		"top": 167,
 		"width": 1536,
 		"height": 913
+	},
+	"Sources/Forms/JournalForm/form.4DForm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 931
+	},
+	"Sources/Forms/MasterForm/form.4DForm": {
+		"left": 52,
+		"top": 225,
+		"width": 1536,
+		"height": 913
 	}
 }
