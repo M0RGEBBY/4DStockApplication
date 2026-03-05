@@ -6,5 +6,5 @@ Case of
 		// Assign to form
 		Form.watchlistStocks:=$watchlist
 		Form.watchlistStocks:=Form.watchlistStocks
-		Form.selectedActivePosition:=Null
+		Form.selectedWatchlistStock:=Null
 End case 

@@ -239,7 +239,8 @@
 					"height": 31,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/Button4.4dm"
 				},
 				"settingsHeader": {
 					"type": "input",
@@ -286,7 +287,8 @@
 					"height": 31,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/Button1.4dm"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -318,7 +320,7 @@
 					"fontSize": 16,
 					"dataSource": "Form:C1466.finnhubTestResult",
 					"method": "ObjectMethods/Input2.4dm",
-					"enterable": true,
+					"enterable": false,
 					"fontWeight": "bold",
 					"borderStyle": "solid",
 					"fill": "#c0c0c0",
@@ -349,7 +351,7 @@
 					"fontSize": 16,
 					"dataSource": "Form:C1466.polygonTestResult",
 					"method": "ObjectMethods/Input4.4dm",
-					"enterable": true,
+					"enterable": false,
 					"fontWeight": "bold",
 					"borderStyle": "solid",
 					"fill": "#c0c0c0",
@@ -446,5 +448,6 @@
 		"views": {
 			"View 1": {}
 		}
-	}
+	},
+	"method": "method.4dm"
 }

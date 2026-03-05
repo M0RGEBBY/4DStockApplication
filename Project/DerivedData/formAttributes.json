@@ -1,7 +1,7 @@
 {
 	"forms": {
 		"ActivePositionsForm": {
-			"timeStamp": "2025-09-09T15:38:00Z",
+			"timeStamp": "2026-03-04T20:50:15Z",
 			"destination": "detailScreen"
 		},
 		"AddStockForm": {
@@ -37,7 +37,7 @@
 			"destination": "detailScreen"
 		},
 		"SettingsForm": {
-			"timeStamp": "2025-09-09T19:52:21Z",
+			"timeStamp": "2026-03-04T20:23:19Z",
 			"destination": "detailScreen"
 		},
 		"WatchlistForm": {

@@ -13,15 +13,21 @@ For each ($watchlistStock; ds.WatchlistStock.all().toCollection())
 	$obj.stopLossPrice:=$watchlistStock.StopLossPrice
 	$obj.watchlistUUID:=$watchlistStock.UUID
 	
-	$stockEntity:=ds.Stock.query("UUID =:1"; $watchlistStock.stockUUID).first()
-	
-	$obj.ticker:=$stockEntity.Ticker
-	$obj.CompanyName:=$stockEntity.CompanyName
-	$obj.currentPrice:=GetCurrentPrice($obj.ticker; $obj.strikePrice)
-	$obj.percentageFromStrike:=CalculatePercentageFromStrike($obj.currentPrice; $obj.strikePrice)
-	$obj.exchange:=$stockEntity.Exchange
-	
-	$watchlist.push($obj)
+	If (($watchlistStock.stockUUID#Null) & ($watchlistStock.stockUUID#""))
+		
+		$stockSelection:=ds.Stock.query("UUID =:1"; $watchlistStock.stockUUID)
+		If ($stockSelection.length>0)
+			$stockEntity:=$stockSelection.first()
+			
+			$obj.ticker:=$stockEntity.Ticker
+			$obj.CompanyName:=$stockEntity.CompanyName
+			$obj.currentPrice:=GetCurrentPrice($obj.ticker; $obj.strikePrice)
+			$obj.percentageFromStrike:=CalculatePercentageFromStrike($obj.currentPrice; $obj.strikePrice)
+			$obj.exchange:=$stockEntity.Exchange
+			
+			$watchlist.push($obj)
+		End if 
+	End if 
 End for each 
 
 return $watchlist

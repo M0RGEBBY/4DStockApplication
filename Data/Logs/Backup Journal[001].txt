@@ -1,0 +1,15 @@
+*** Automatic Full Backup Restore
+Starting:  3/3/2026 11:50
+Ending:  3/3/2026 11:50
+Result: backup not available
+
+*** Full Backup
+Creating archive : C:\4DProjects\stockApplication\data[0001].4BK
+Attachment(s): 
+	C:\4DProjects\stockApplication\Data\data.4DSyncHeader [NOT FOUND]
+	C:\4DProjects\stockApplication\Data\data.4DSyncData [NOT FOUND]
+	C:\4DProjects\stockApplication\Data\data.4DIndx [OK]
+Scheduled 0/0/0 12:00
+Starting 3/3/2026 11:51
+Ending 3/3/2026 11:51
+

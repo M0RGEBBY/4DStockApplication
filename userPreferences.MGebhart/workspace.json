@@ -2,21 +2,11 @@
 	"editors": [
 		{
 			"type": "form",
-			"id": 232,
-			"formName": "SettingsForm"
+			"id": 223,
+			"formName": "ActivePositionsForm"
 		},
 		{
-			"type": "form",
-			"id": 229,
-			"formName": "MasterForm"
-		},
-		{
-			"type": "method",
-			"id": 2147483637,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "populateStockTable"
-			}
+			"type": "explorer"
 		}
 	]
 }

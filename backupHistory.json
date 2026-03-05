@@ -1,0 +1,29 @@
+{
+	"C:\\4DProjects\\stockApplication\\Project\\stockApplication.4DProject": [
+		{
+			"backupPath": "C:\\4DProjects\\stockApplication\\data[0001].4BK",
+			"structurePath": "C:\\4DProjects\\stockApplication\\Project\\stockApplication.4DProject",
+			"dataPath": "C:\\4DProjects\\stockApplication\\Data\\data.4DD",
+			"logPath": "",
+			"startingDate": "2026-03-03T16:51:06.752Z",
+			"endingDate": "2026-03-03T16:51:06.752Z",
+			"scheduledDate": "2026-03-03T16:51:06.752Z",
+			"backupNumber": 1,
+			"duration": 34,
+			"attachments": [
+				{
+					"attachmentPath": "C:\\4DProjects\\stockApplication\\Data\\data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\4DProjects\\stockApplication\\Data\\data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\4DProjects\\stockApplication\\Data\\data.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}

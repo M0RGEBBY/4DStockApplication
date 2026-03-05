@@ -5,13 +5,17 @@ Case of
 		$ticker:=Form.Ticker
 		$companyName:=Form.CompanyName
 		$exchange:=Form.Exchange
-		var $finnhubApiKey : Text:="d23pcnpr01qv4g01lod0d23pcnpr01qv4g01lodg"
+		var $finnhubApiKey : Text:=GetAPIKey("finnhub")
+		If ($finnhubApiKey="")
+			ALERT("Missing Finnhub API key. Add it in Settings.")
+			return 
+		End if 
 		var $finnhubQuoteUrl : Text:="https://finnhub.io/api/v1/quote?symbol="+$ticker+"&token="+$finnhubApiKey
 		var $timePeriod : Text:="20"
 		LoadTradingViewChart(Form.Ticker; Form.Exchange; "WebArea")
 		GetCompanyLogo(Form.Ticker; "logoWebArea")
 /*//===== Alpha Vantage API Call (Grabs 20 Day SMA data)
-var $alphaApiKey : Text:="207WRRF8H9AWTFA4"
+var $alphaApiKey : Text:="<your_alpha_vantage_api_key>"
 var $alphaQuoteUrl : Text:="https://www.alphavantage.co/query?function=SMA&symbol="+$ticker+"&interval=daily&time_period="+$timePeriod+"&series_type=close&apikey="+$alphaApiKey
 var $alphaRequest : 4D.HTTPRequest
 		
@@ -72,7 +76,7 @@ End if
 				OBJECT SET RGB COLORS(*; "changeString"; "green")
 			End if 
 		Else 
-			ALERT("Request failed with status: "+String($request.statusCode))
+			ALERT("Request failed with status: "+String($finnhubRequest.response.status))
 		End if 
 		
 		

@@ -5,7 +5,11 @@ Case of
 		$ticker:=Form.WatchlistStock.ticker
 		$companyName:=Form.WatchlistStock.companyName
 		$exchange:=Form.WatchlistStock.exchange
-		var $finnhubApiKey : Text:="d23pcnpr01qv4g01lod0d23pcnpr01qv4g01lodg"
+		var $finnhubApiKey : Text:=GetAPIKey("finnhub")
+		If ($finnhubApiKey="")
+			ALERT("Missing Finnhub API key. Add it in Settings.")
+			return 
+		End if 
 		var $finnhubQuoteUrl : Text:="https://finnhub.io/api/v1/quote?symbol="+$ticker+"&token="+$finnhubApiKey
 		var $timePeriod : Text:="20"
 		LoadTradingViewChart($ticker; $exchange; "WebArea")
@@ -42,7 +46,7 @@ Case of
 				OBJECT SET RGB COLORS(*; "changeString"; "rgb(0,128,0)"; "rgb(220,255,220)")
 			End if 
 		Else 
-			ALERT("Request failed with the status: "+String($request.statusCode))
+			ALERT("Request failed with the status: "+String($finnhubRequest.response.status))
 		End if 
 		
 		

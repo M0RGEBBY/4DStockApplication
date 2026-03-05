@@ -23,6 +23,6 @@ Case of
 		
 		Form.fivePercentStop:=calculateStopLossTarget(Form.purchasePrice; 0.05)
 		
-		Form.fivePercentStop:=calculateStopLossTarget(Form.purchasePrice; 0.1)
+		Form.tenPercentStop:=calculateStopLossTarget(Form.purchasePrice; 0.1)
 		
 End case 

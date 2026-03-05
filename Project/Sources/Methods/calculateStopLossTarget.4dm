@@ -3,6 +3,6 @@
 $strikePrice:=(Num($1))
 $percentageLoss:=($2)
 
-$lossTarget:=$strikeprice-($strikePrice*$percentageLoss)
+$lossTarget:=$strikePrice-($strikePrice*$percentageLoss)
 
 return $lossTarget

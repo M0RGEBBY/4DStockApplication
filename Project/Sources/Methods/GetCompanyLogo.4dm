@@ -3,9 +3,14 @@ C_TEXT($ticker; $waName)
 
 $ticker:=String($1)
 $waName:=String($2)
+$logoKitApiKey:=GetAPIKey("logokit")
 
 //Calls the LogoKit API to populate the image of the currently selected stock
-$html:="<html><body style='margin:0; padding:0;'><img src='https://img.logokit.com/ticker/"+$ticker+"?token=pk_fr0e773c2db97bf78d624c' style='width:100%; height:100%; display:block;'></body></html>"
+If ($logoKitApiKey="")
+	$html:="<html><body style='margin:0; padding:0;'><img src='https://img.logokit.com/ticker/"+$ticker+"' style='width:100%; height:100%; display:block;'></body></html>"
+Else 
+	$html:="<html><body style='margin:0; padding:0;'><img src='https://img.logokit.com/ticker/"+$ticker+"?token="+$logoKitApiKey+"' style='width:100%; height:100%; display:block;'></body></html>"
+End if 
 
 //Creates temporary file path to store currentStockTicker image
 $filePath:=String(Temporary folder)+"currentStockTicker.html"

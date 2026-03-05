@@ -39,6 +39,12 @@
 		<field name="stockUUID" uuid="558AAB6FFAEB27408801B67CCF967450" type="10" store_as_UUID="true" id="7"/>
 		<primary_key field_name="UUID" field_uuid="F0EF48BB18A1E745A0C5B8F941F62B47"/>
 	</table>
+	<table name="APIConfig" uuid="F9AA6D6D0D7B4D66A34EEA0282152F01" id="5">
+		<field name="UUID" uuid="C640A6D8F30A4A7D8A0D9A64534F5F68" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Provider" uuid="89F3AB1A35DF4D3A9DB3523246B5D95C" type="10" limiting_length="255" id="2"/>
+		<field name="ApiKey" uuid="F56D29931E4044469D860B1B88D61ED5" type="10" limiting_length="255" id="3"/>
+		<primary_key field_name="UUID" field_uuid="C640A6D8F30A4A7D8A0D9A64534F5F68"/>
+	</table>
 	<relation uuid="B9819A389E2606498A8DD73F353D95AE" name_Nto1="ActivePositionStock" name_1toN="Stock" state="1">
 		<related_field kind="source">
 			<field_ref uuid="558AAB6FFAEB27408801B67CCF967450" name="stockUUID">
@@ -63,6 +69,11 @@
 			</field_ref>
 		</related_field>
 	</relation>
+	<index kind="regular" unique_keys="true" uuid="0B8496C398D14F7BAC9F97195E2C2CDA" type="7">
+		<field_ref uuid="C640A6D8F30A4A7D8A0D9A64534F5F68" name="UUID">
+			<table_ref uuid="F9AA6D6D0D7B4D66A34EEA0282152F01" name="APIConfig"/>
+		</field_ref>
+	</index>
 	<index kind="regular" uuid="18FA97BE7CAA3947AAFEC9CD352524F7" type="7">
 		<field_ref uuid="8BC9E673A8F7154387749FB7C8515E89" name="Ticker">
 			<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
@@ -81,6 +92,11 @@
 	<index kind="regular" uuid="6DA914459265CC4A98EFEDDAE1EA72DF" type="7">
 		<field_ref uuid="8E5672EDC3D77149B59BF422DC636EDC" name="CompanyName">
 			<table_ref uuid="5142B1081CB46B4AAED72BB95BF04230" name="Stock"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="79A8D3D0A3134E6497785C6A2A023B62" type="7">
+		<field_ref uuid="89F3AB1A35DF4D3A9DB3523246B5D95C" name="Provider">
+			<table_ref uuid="F9AA6D6D0D7B4D66A34EEA0282152F01" name="APIConfig"/>
 		</field_ref>
 	</index>
 	<index kind="regular" unique_keys="true" uuid="A1D41322B1D8984D9998935422B14E3B" type="7">

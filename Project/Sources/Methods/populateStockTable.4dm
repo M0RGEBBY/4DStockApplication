@@ -1,6 +1,10 @@
 //%attributes = {"lang":"en"}
 // Declare all variables
-var $apiKey : Text:="DcKD2DhLAXL3qgSVXVD9MXTYfA_yrupp"
+var $apiKey : Text:=GetAPIKey("polygon")
+If ($apiKey="")
+	ALERT("Missing Polygon API key. Add it in Settings.")
+	return 
+End if 
 var $url : Text:="https://api.polygon.io/v3/reference/tickers?market=stocks&type=CS&limit=1000&apiKey="+$apiKey
 var $cursor : Text:=""
 var $allResults : Collection:=New collection

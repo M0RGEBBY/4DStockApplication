@@ -20,5 +20,5 @@ Case of
 		End if 
 	: (Form event code=On Load)
 		Form.fivePercentStop:=calculateStopLossTarget(Form.WatchlistStock.strikePrice; 0.05)
-		Form.fivePercentStop:=calculateStopLossTarget(Form.WatchlistStock.strikePrice; 0.1)
+		Form.tenPercentStop:=calculateStopLossTarget(Form.WatchlistStock.strikePrice; 0.1)
 End case 

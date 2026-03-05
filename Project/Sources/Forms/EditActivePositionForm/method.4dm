@@ -5,7 +5,11 @@ Case of
 		$ticker:=Form.ActivePosition.ticker
 		$companyName:=Form.ActivePosition.companyName
 		$exchange:=Form.ActivePosition.exchange
-		var $finnhubApiKey : Text:="d23pcnpr01qv4g01lod0d23pcnpr01qv4g01lodg"
+		var $finnhubApiKey : Text:=GetAPIKey("finnhub")
+		If ($finnhubApiKey="")
+			ALERT("Missing Finnhub API key. Add it in Settings.")
+			return 
+		End if 
 		var $finnhubQuoteUrl : Text:="https://finnhub.io/api/v1/quote?symbol="+$ticker+"&token="+$finnhubApiKey
 		var $timePeriod : Text:="20"
 		LoadTradingViewChart($ticker; $exchange; "WebArea")
@@ -53,7 +57,7 @@ Case of
 			//calculate 10% loss from current price
 			Form.tenPercentStop:="$"+String(calculateStopLossTarget(Form.currentPrice; 0.1); "#,##0.00")
 		Else 
-			ALERT("Request failed with the status: "+String($request.statusCode))
+			ALERT("Request failed with the status: "+String($finnhubRequest.response.status))
 		End if 
 		
 		

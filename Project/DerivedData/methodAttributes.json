@@ -1,16 +1,16 @@
 {
 	"methods": {
 		"CalculatePercentageFromPurchase": {
-			"timeStamp": "2025-09-04T18:44:38Z"
+			"timeStamp": "2026-03-04T20:25:02Z"
 		},
 		"CalculatePercentageFromStrike": {
-			"timeStamp": "2025-08-27T14:54:11Z",
+			"timeStamp": "2026-03-04T20:24:56Z",
 			"attributes": {
 				"lang": "en"
 			}
 		},
 		"calculateStopLossTarget": {
-			"timeStamp": "2025-08-27T14:54:11Z",
+			"timeStamp": "2026-03-04T19:49:54Z",
 			"attributes": {
 				"lang": "en"
 			}
@@ -19,7 +19,7 @@
 			"timeStamp": "2025-09-09T14:50:57Z"
 		},
 		"FetchStock": {
-			"timeStamp": "2025-08-27T14:54:11Z",
+			"timeStamp": "2026-03-04T20:23:40Z",
 			"attributes": {
 				"lang": "en"
 			}
@@ -30,14 +30,17 @@
 				"lang": "en"
 			}
 		},
+		"GetAPIKey": {
+			"timeStamp": "2026-03-04T20:30:26Z"
+		},
 		"GetCompanyLogo": {
-			"timeStamp": "2025-08-27T14:54:11Z",
+			"timeStamp": "2026-03-04T20:23:50Z",
 			"attributes": {
 				"lang": "en"
 			}
 		},
 		"GetCurrentPrice": {
-			"timeStamp": "2025-08-27T14:54:11Z",
+			"timeStamp": "2026-03-04T20:23:26Z",
 			"attributes": {
 				"lang": "en"
 			}
@@ -49,19 +52,22 @@
 			}
 		},
 		"PopulateActivePositions": {
-			"timeStamp": "2025-09-09T13:41:34Z"
+			"timeStamp": "2026-03-04T20:50:16Z"
 		},
 		"populateStockTable": {
-			"timeStamp": "2025-08-27T14:54:11Z",
+			"timeStamp": "2026-03-04T20:23:32Z",
 			"attributes": {
 				"lang": "en"
 			}
 		},
 		"PopulateWatchlist": {
-			"timeStamp": "2025-08-29T13:07:04Z",
+			"timeStamp": "2026-03-04T19:54:20Z",
 			"attributes": {
 				"lang": "en"
 			}
+		},
+		"SetAPIKey": {
+			"timeStamp": "2026-03-04T20:30:37Z"
 		},
 		"Test": {
 			"timeStamp": "2025-08-27T14:54:11Z",

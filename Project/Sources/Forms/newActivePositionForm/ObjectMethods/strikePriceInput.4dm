@@ -11,7 +11,7 @@ Case of
 		Form.tenPercentStop:="$"+String(calculateStopLossTarget(Form.purchasePrice; 0.1); "#,##0.00")
 		
 		Form.purchasePrice:=Num(Form.purchasePriceText)
-		Form.purchasePiceText:="$"+String(Form.purchasePrice; "#,##0.00")
+		Form.purchasePriceText:="$"+String(Form.purchasePrice; "#,##0.00")
 		
 		If (Form.sharesPurchased#Null) & (Form.purchasePrice#0)
 			Form.initialInvestment:="$"+String(Num(Form.sharesPurchased)*Num(Form.purchasePrice); "#,##0.00")

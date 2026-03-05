@@ -5,14 +5,5 @@
 			"type": 3,
 			"formName": "Navigation"
 		}
-	},
-	{
-		"line": 11,
-		"method": {
-			"type": 2,
-			"formName": "newWatchlistStockForm",
-			"objectName": "Button1",
-			"methodPath": "/SOURCES/Forms/newWatchlistStockForm/ObjectMethods/Button1.4dm"
-		}
 	}
 ]

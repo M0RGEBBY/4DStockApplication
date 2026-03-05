@@ -5,7 +5,7 @@ Case of
 		If ($search="")
 			Form.stocks:=ds.Stock.all()
 		Else 
-			Form.stocks:=Form.stocks.query("Ticker = "+$search)
+			Form.stocks:=Form.stocks.query("Ticker = :1"; $search)
 		End if 
 		
 End case 

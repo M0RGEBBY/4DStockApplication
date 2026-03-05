@@ -180,10 +180,12 @@
 							},
 							"name": "Column7",
 							"dataSource": "This:C1470.totalPL",
+							"rowStrokeSource": "This:C1470.totalPLColor",
 							"footer": {
 								"name": "Footer8"
 							},
-							"width": 91
+							"width": 91,
+							"stroke": "automatic"
 						}
 					]
 				},
